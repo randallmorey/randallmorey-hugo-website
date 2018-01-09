@@ -3,17 +3,13 @@
 {{ else }}
 <header class="site-header">
 {{ end }}
-  <a class="site-title" href="/">
-    {{ .Site.Title }}
-  </a><!-- /.site-title -->
+  <a class="site-title" href="/">{{ .Site.Title }}</a><!-- /.site-title -->
 
   <nav class="site-nav">
     <ul>
       {{ with .Site.Menus.main }}
         {{ range sort . "Weight" "desc" }}
-          <li class="page-link">
-            <a href="{{ .URL }}">{{ .Name }}</a>
-          </li><!-- /.page-link -->
+          <li><a class="page-link" href="{{ .URL }}">{{ .Name }}</a></li>
         {{ end }}
       {{ end }}
     </ul>
@@ -32,3 +28,5 @@
     </cite>
   {{ end }}
 {{ end }}
+
+<main class="content" aria-label="Content">
