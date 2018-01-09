@@ -26,6 +26,15 @@ hugo server -D
 gulp
 ```
 
+
+## Build
+
+Build site into `public/`:
+```bash
+gulp sass && hugo
+```
+
+
 ## Copyright
 
 The content and visual design of this project are copyrighted and may not be
