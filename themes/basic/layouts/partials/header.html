@@ -1,0 +1,34 @@
+{{ if .Params.reverse_header }}
+<header class="site-header reverse">
+{{ else }}
+<header class="site-header">
+{{ end }}
+  <a class="site-title" href="/">
+    {{ .Site.Title }}
+  </a><!-- /.site-title -->
+
+  <nav class="site-nav">
+    <ul>
+      {{ with .Site.Menus.main }}
+        {{ range sort . "Weight" "desc" }}
+          <li class="page-link">
+            <a href="{{ .URL }}">{{ .Name }}</a>
+          </li><!-- /.page-link -->
+        {{ end }}
+      {{ end }}
+    </ul>
+  </nav><!-- /.stie-nav -->
+</header><!-- /.stie-header -->
+
+{{ if .Params.cover_art }}
+  <div class="cover-art cover-art-bg-{{ .Params.cover_art_bg_color }}{{ if .Params.cover_art_full }} cover-art-full{{ end }}">
+    {{ if .Params.cover_art_svg }}
+      {{ readFile (print "/static/art/" .Params.cover_art_svg ".svg") | safeHTML }}
+    {{ end }}
+  </div>
+  {{ with .Params.cover_art_caption }}
+    <cite class="cover-art-caption">
+      {{ . | safeHTML }}
+    </cite>
+  {{ end }}
+{{ end }}

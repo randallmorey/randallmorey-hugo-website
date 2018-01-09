@@ -1,0 +1,18 @@
+baseURL: "http://www.randallmorey.com/"
+theme: "basic"
+languageCode: "en-us"
+title: "Randall Morey"
+permalinks:
+  articles: "/:year/:month/:day/:slug/"
+
+params:
+  googleAnalytics: "UA-104976480-1"
+
+menu:
+  main:
+    - name: "Home"
+      url: "/"
+      weight: 200
+    - name: "About"
+      url: "/about/"
+      weight: 100

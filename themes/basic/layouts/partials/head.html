@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}" />
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>{{ .Site.Title }} | {{ .Title }}</title>
+  {{ if .IsPage }}
+    <meta name="description" content="{{ .Description | default (substr (.Summary | plainify | safeHTML) 0 157) }}..." />
+  {{ else }}
+    <meta name="description" content="{{ .Site.Params.metadescription | default .Site.Params.description }}..." />
+  {{ end }}
+
+  <link rel="canonical" href="{{ .Permalink }}">
+  <link href="{{ "index.xml" | absURL}}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
+</head>

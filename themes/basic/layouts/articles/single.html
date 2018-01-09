@@ -1,0 +1,34 @@
+{{ partial "head" . }}
+
+<body>
+{{ partial "header" . }}
+
+<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">
+      {{ .Title }}
+    </h1><!-- /.post-title -->
+    <p class="post-meta">
+      <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}" itemprop="datePublished">
+        {{ .PublishDate.Format "January 2, 2006" }}
+      </time>
+      {{ if .Params.Author }}
+        <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <span itemprop="name">{{ .Params.Author }}</span>
+        </span>
+      {{ end }}
+    </p><!-- /.post-meta -->
+  </header><!-- /.post-header -->
+
+  <div class="post-content" itemprop="articleBody">
+    {{ if .Params.lead }}
+      <p class="lead">{{ .Params.lead }}</p><!-- /.post-lead -->
+    {{ end }}
+    {{ .Content }}
+  </div><!-- /.post-content -->
+
+</article><!-- /.post -->
+
+{{ partial "footer" . }}
+</body>
