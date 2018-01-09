@@ -1,5 +1,8 @@
 # randallmorey.com - Personal Website
 
+[![Travis](https://img.shields.io/travis/randallmorey/randallmorey-hugo-website.svg?style=flat-square)](https://travis-ci.org/randallmorey/randallmorey-hugo-website)
+
+
 ## Requirements
 
 - [Hugo](https://gohugo.io/)
