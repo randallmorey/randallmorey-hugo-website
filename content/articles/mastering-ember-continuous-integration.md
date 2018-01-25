@@ -7,7 +7,6 @@ lead: >
   advanced frontend engineering with Ember.  You will learn modern best
   practices, advanced features, and ways to write, measure, and maintain high
   quality code for ambitious frontend&nbsp;applications.
-draft: true
 cover_art: true
 cover_art_bg_color: orange
 reverse_header: true
