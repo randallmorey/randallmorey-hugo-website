@@ -8,6 +8,9 @@ lead: >
   practices, advanced features, and ways to write, measure, and maintain high
   quality code for ambitious frontend&nbsp;applications.
 draft: true
+cover_art: true
+cover_art_bg_color: orange
+reverse_header: true
 ---
 
 [![Travis][travis-badge]][travis-link]
@@ -134,9 +137,9 @@ on Travis.  Commit and push.
 [![Travis](BADGE_IMAGE_URL)](WEBSITE_URL)
 {{< / highlight >}}
 
-Congratulations, you've just announced to your team and the world that your
+Congratulations, you've just announced to the world that your
 project builds and tests pass.  In later posts we'll build on this with more
-sophisticated quality guarantees.
+sophisticated quality&nbsp;guarantees.
 
 
 [ci]: https://docs.travis-ci.com/user/for-beginners/
