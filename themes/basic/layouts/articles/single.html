@@ -23,7 +23,7 @@
 
   <div class="post-content" itemprop="articleBody">
     {{ if .Params.lead }}
-      <p class="lead">{{ .Params.lead }}</p><!-- /.post-lead -->
+      <p class="lead">{{ .Params.lead | markdownify }}</p><!-- /.post-lead -->
     {{ end }}
     {{ .Content }}
   </div><!-- /.post-content -->
