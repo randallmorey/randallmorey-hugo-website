@@ -1,22 +1,23 @@
 ---
-title: "Mastering Ember: CI"
-slug: mastering-ember-continuous-integration
+title: "Mastering Frontend: CI"
+slug: mastering-frontend-continuous-integration
 date: 2018-01-20T18:05:00-05:00
 lead: >
-  Welcome to _Mastering Ember_, an ongoing series of cookbook-style posts for
-  advanced frontend engineering with Ember.  You will learn modern best
-  practices, advanced features, and ways to write, measure, and maintain high
-  quality code for ambitious frontend&nbsp;applications.
+  Welcome to _Mastering Frontend_, an ongoing series of cookbook-style posts for
+  advanced frontend engineering.  You will learn modern best practices, advanced
+  features, and ways to write, measure, and maintain high quality code for
+  ambitious frontend&nbsp;applications.  Presented using Ember.js, the tools
+  and techniques you'll learn apply to most frontend frameworks.
 cover_art: true
 cover_art_bg_color: orange
 reverse_header: true
 ---
 
 [![Travis][travis-badge]][travis-link]
-[travis-badge]: https://travis-ci.org/randallmorey/mastering-ember-continuous-integration.svg?branch=master
-[travis-link]: https://travis-ci.org/randallmorey/mastering-ember-continuous-integration
+[travis-badge]: https://travis-ci.org/randallmorey/mastering-frontend-continuous-integration.svg?branch=master
+[travis-link]: https://travis-ci.org/randallmorey/mastering-frontend-continuous-integration
 
-[Continuous integration][ci] is an approach to modern software engineering that
+[Continuous integration][ci] is an approach to software engineering that
 works equally well for backend and frontend.  In a CI approach,
 changes are built and tested _continuously_, every time they're made.  Breaking
 changes are thus detected early and issues may be resolved before compounding.
@@ -34,8 +35,8 @@ The [demo repository][github-repo] for this post shows step-by-step commits used
 to produce the [build results on Travis][travis-builds], roughly following
 this walkthrough.
 
-[github-repo]: https://github.com/randallmorey/mastering-ember-continuous-integration
-[travis-builds]: https://travis-ci.org/randallmorey/mastering-ember-continuous-integration
+[github-repo]: https://github.com/randallmorey/mastering-frontend-continuous-integration
+[travis-builds]: https://travis-ci.org/randallmorey/mastering-frontend-continuous-integration
 
 
 ## Setting Up GitHub & Travis
