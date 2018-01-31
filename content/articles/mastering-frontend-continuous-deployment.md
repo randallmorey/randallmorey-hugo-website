@@ -11,7 +11,6 @@ lead: >
 cover_art: true
 cover_art_bg_color: orange
 reverse_header: true
-draft: true
 ---
 
 [Continuous deployment][cd] is the practice of deploying software as soon as
@@ -35,8 +34,8 @@ gitflow-like strategy.
 
 This walkthrough is a continuation of my previous post about
 [continuous integration][mastering-ci] and assumes your repository is already
-setup to build on Travis.  This post's [repository][repo] is forked from
-the previous repo and [builds on Travis][travis-repo].
+setup to build on Travis.  View this post's [repository][repo] and its
+[builds on Travis][travis-repo].
 
 
 ## Deployment Targets
@@ -54,7 +53,7 @@ we'll create two named deployments:
 
 We'll use Amazon [S3][aws-s3] and [CloudFront][aws-cloudfront] for our
 deployments.  [AWS][aws] is among the best options to serve a serious production
-quality application.  It's particularly suited to static frontends
+application.  It's particularly suited to static frontends
 for two reasons:  it's cheap, and for most purposes it's infinitely
 scalable.  While it is a slightly more complex setup than many frontend
 developers may be comfortable with, the effort is well worth it.  A working
@@ -65,7 +64,8 @@ erosion (barring external dependencies of course).
 ## S3 Deployments
 
 On [S3][aws-s3], create one new bucket for each deployment (in our example,
-there are two).  The names should match the domain names you plan to point to,
+there are two).  The names should match the domain names to which you plan to
+point,
 e.g. `dev.example.com` or `www.example.com`.  My example deployments won't have
 their own domains and will be served directly from AWS, in which case any names
 will work.  I'll use the verbose but meaningful bucket names:
@@ -132,7 +132,7 @@ deploy:
 
 Add your changes and push to GitHub.  If all goes well, your application will be
 deployed automatically to [development][deployment-dev].  Now the fun part.  To
-prove the production deployment works too, lets create a
+prove the production deployment also works, lets create a
 [pull request][github-pr] _from `develop`_ branch of the repository
 _to `master`_ branch in GitHub.  Why a "PR" instead of merging branches on the
 command line?  Mainline branches are hallowed.  In gitflow, no commits should
@@ -204,7 +204,7 @@ If your app uses `language: node_js`, you can add the following line under
 - npm install -g travis-ci-cloudfront-invalidation
 {{< /highlight >}}
 
-If your app doesn't use Node, you may need to install it first.  Make sure the
+If your app doesn't use Node, you may need to install it.  Make sure the
 following lines appear first under `before_install`:
 
 {{< highlight yml >}}
@@ -217,12 +217,15 @@ the end of `.travis.yml`:
 
 {{< highlight yml >}}
 after_deploy:
-  - if [[ $TRAVIS_BRANCH = "master" ]]; then travis-ci-cloudfront-invalidation -a $AWS_ACCESS_KEY_ID -s $AWS_SECRET_ACCESS_KEY -c $AWS_CLOUDFRONT_ID_PROD -i '/*' -b $TRAVIS_BRANCH -p $TRAVIS_PULL_REQUEST; fi
+  - if [[ $TRAVIS_BRANCH = "master" ]]; then travis-ci-cloudfront-invalidation -a $AWS_ACCESS_KEY_ID -s $AWS_SECRET_ACCESS_KEY -c $AWS_CLOUDFRONT_ID_PROD -i '/*' -b 'master' -p $TRAVIS_PULL_REQUEST; fi
 {{< /highlight >}}
 
 If you have additional CloudFront deployments, add additional lines and tweak
 as necessary to invalidate them too.  Remember to add the distribution IDs to
-the build as environment variables.
+the build as environment variables and update the `if` conditional with the
+branch name.  Leave the `-b 'master'` option unchanged for other branches,
+because the invalidation tool will only invalidate if the value "master" is
+passed here.
 
 
 ## Wrapping Up
@@ -236,7 +239,7 @@ distribution to confirm that one was created.
 
 ## Extra Credit:  Branch Protection
 
-Earlier we briefly explored gitflow and the benefits of disciplined branching.
+We briefly explored gitflow and the benefits of disciplined branching.
 In gitflow, commits should never be made directly to mainline branches.  Without
 a technological solution, this could mean imposing discipline on your whole
 team, which isn't necessarily a bad thing.  Fortunately, GitHub provides
