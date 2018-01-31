@@ -141,6 +141,8 @@ Congratulations, you've just announced to the world that your
 project builds and tests pass.  In later posts we'll build on this with more
 sophisticated quality&nbsp;guarantees.
 
+Next post:  [Mastering Frontend: CD][mastering-cd]
+
 
 [ci]: https://docs.travis-ci.com/user/for-beginners/
 [ember-cli]: https://ember-cli.com/
@@ -149,3 +151,4 @@ sophisticated quality&nbsp;guarantees.
 [firefox]: https://www.mozilla.org/firefox/new/
 [custom-builds]: https://docs.travis-ci.com/user/customizing-the-build/
 [multi-os]: https://docs.travis-ci.com/user/multi-os/
+[mastering-cd]: {{< relref "mastering-frontend-continuous-deployment.md" >}}
