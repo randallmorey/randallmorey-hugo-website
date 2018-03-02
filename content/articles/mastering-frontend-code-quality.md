@@ -105,7 +105,7 @@ Now update the `test` task in `package.json` to use Ember Exam:<br>
 ## Code Climate
 
 [Code Climate][code-climate] is a service that monitors code quality.  By
-default, it asses _structure_ and _duplication_.  Many other options are
+default, it assesses _structure_ and _duplication_.  Many other options are
 available.
 
 To get started, login to GitHub and then visit [Code Climate][code-climate] to
