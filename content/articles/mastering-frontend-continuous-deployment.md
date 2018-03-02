@@ -261,6 +261,7 @@ requiring code reviews on PRs.  Altogether, branch protection along with Travis
 CI add up to greater confidence in quality and readiness and help teams avoid
 common mishaps.
 
+Next post:  [Mastering Frontend: Code Quality][mastering-code-quality]<br>
 Previous post:  [Mastering Frontend: CI][mastering-ci]
 
 
@@ -281,3 +282,5 @@ Previous post:  [Mastering Frontend: CI][mastering-ci]
 [deployment-dev]: http://mastering-frontend-continuous-deployment-development.s3-website-us-east-1.amazonaws.com
 [deployment-prod]: http://mastering-frontend-continuous-deployment-production.s3-website-us-east-1.amazonaws.com
 [deployment-cloudfront-prod]: https://d4ywr74sq634p.cloudfront.net
+
+[mastering-code-quality]: {{< relref "mastering-frontend-code-quality.md" >}}
