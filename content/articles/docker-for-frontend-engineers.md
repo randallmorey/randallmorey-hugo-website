@@ -14,7 +14,7 @@ lead: >
 Containers are everywhere.  You've probably heard of [Docker][docker] and
 [its benefits][docker-benefits].  Perhaps you've followed a tutorial outlining
 the use of `Dockerfile` and the `docker` CLI.  But for many frontend use cases,
-there's a easier way.  We'll dive in with simple, practical examples of
+there's an easier way.  We'll dive in with simple, practical examples of
 [Docker Compose][docker-compose], a declarative approach to Docker.
 [Install Docker][install-docker] and follow along.
 
