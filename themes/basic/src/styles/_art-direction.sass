@@ -1,12 +1,13 @@
-.cover-art
-  &.cover-art-bg-green
-    background-color: $cover-art-bg-green
-  &.cover-art-bg-red
-    background-color: $cover-art-bg-red
-  &.cover-art-bg-yellow
-    background-color: $cover-art-bg-yellow
-  &.cover-art-bg-orange
-    background-color: $cover-art-bg-orange
+.bg-green
+  background-color: $bg-green
+.bg-red
+  background-color: $bg-red
+.bg-yellow
+  background-color: $bg-yellow
+.bg-orange
+  background-color: $bg-orange
+.bg-purple
+  background-color: $bg-purple
 
 .signature-animation
   .stroke
@@ -89,15 +90,108 @@
   .swirl-1
     animation: clockwise-rotation 10s infinite linear
     transform-origin: 50%
-    fill: $cover-art-bg-yellow
+    fill: $bg-yellow
     mix-blend-mode: screen
   .swirl-2
     animation: clockwise-rotation 9s infinite linear
     transform-origin: 50%
-    fill: $cover-art-bg-red
+    fill: $bg-red
     mix-blend-mode: multiply
   .swirl-3
     animation: clockwise-rotation 8s infinite linear
     transform-origin: 50%
-    fill: $cover-art-bg-green
+    fill: $bg-green
     mix-blend-mode: multiply
+
+.typewriter-container
+  display: flex
+  align-items: center
+  justify-content: center
+  height: 100%
+  @keyframes typewriter
+    0%
+      width: 0
+    100%
+      width: 7.85em
+  @keyframes blinkTextCursor
+    from
+      border-right-color: rgba(255,255,255, .95)
+    to
+      border-right-color: transparent
+  @keyframes contentTest
+    0%
+      content: ""
+    2%
+      content: "a"
+    4%
+      content: "ac"
+    6%
+      content: "acc"
+    8%
+      content: "acce"
+    12%
+      content: "acces"
+    16%
+      content: "access"
+    18%
+      content: "accessi"
+    20%
+      content: "accessib"
+    22%
+      content: "accessibi"
+    24%
+      content: "accessibil"
+    26%
+      content: "accessibili"
+    28%
+      content: "accessibilit"
+    29%, 40%
+      content: "accessibility"
+    41%
+      content: "accessibilit"
+    42%
+      content: "accessibili"
+    43%
+      content: "accessibil"
+    44%
+      content: "accessibi"
+    45%
+      content: "accessib"
+    46%
+      content: "accessi"
+    47%
+      content: "access"
+    48%
+      content: "acces"
+    49%
+      content: "acce"
+    50%
+      content: "acc"
+    51%
+      content: "ac"
+    52%, 62%
+      content: "a"
+    64%
+      content: "a1"
+    66%
+      content: "a11"
+    68%, 100%
+      content: "a11y"
+  .typewriter-text
+    display: inline-block
+    min-height: 1.5em
+    line-height: 1.5em
+    margin: 0 auto
+    border-right: 3px solid rgba(255,255,255, .95)
+    color: #FFFFFF
+    font-family: Menlo, "Lucida Console", Monaco, monospace
+    font-size: 500%
+    text-align: center
+    overflow: hidden
+    animation: blinkTextCursor 500ms steps(44) infinite normal
+    +respond-to(smaller-screens)
+      font-size: 250%
+    &::after
+      animation: contentTest 7s infinite alternate
+      animation-delay: 1.5s
+      content: ""
