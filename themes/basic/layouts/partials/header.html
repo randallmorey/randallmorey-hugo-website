@@ -1,7 +1,7 @@
 {{ if .Params.reverse_header }}
-<header class="site-header reverse">
+<header class="site-header reverse bg-{{ .Params.cover_art_bg_color }}">
 {{ else }}
-<header class="site-header">
+<header class="site-header bg-{{ .Params.cover_art_bg_color }}">
 {{ end }}
   <a class="site-title" href="/">{{ .Site.Title }}</a><!-- /.site-title -->
 
@@ -17,7 +17,7 @@
 </header><!-- /.stie-header -->
 
 {{ if .Params.cover_art }}
-  <div class="cover-art cover-art-bg-{{ .Params.cover_art_bg_color }}{{ if .Params.cover_art_full }} cover-art-full{{ end }}">
+  <div class="cover-art bg-{{ .Params.cover_art_bg_color }}{{ if .Params.cover_art_full }} cover-art-full{{ end }}">
     {{ if .Params.cover_art_svg }}
       {{ readFile (print "/static/art/" .Params.cover_art_svg ".svg") | safeHTML }}
     {{ end }}
