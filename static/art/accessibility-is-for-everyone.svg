@@ -1,5 +1,6 @@
-<div class="art-container a11y-animation" role="img" title="Accessibility is conveniently abbreviated as a11y">
+<div class="art-container a11y-animation" role="img" aria-hidden="true" title="Accessibility is appropriately abbreviated as a11y">
 	<div class="typewriter-container">
-		<div class="typewriter-text"></div>
+		<div class="text text-01">accessibility</div>
+		<div class="text text-02">a11y<span class="text-super-floater"><span class="text-flipper">&#9829;</span></span></div>
 	</div>
 </div>
