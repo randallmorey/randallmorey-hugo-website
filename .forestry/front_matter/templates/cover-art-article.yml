@@ -1,13 +1,13 @@
 ---
 label: cover-art-article
-hide_body: 
-is_partial: 
+hide_body: false
+is_partial: false
 fields:
 - name: title
   label: Title
   type: text
   hidden: false
-  default: ''
+  default: Article Title
 - name: date
   label: Date
   type: datetime
@@ -17,22 +17,22 @@ fields:
   label: Cover art
   type: boolean
   hidden: false
-  default: ''
+  default: true
 - name: reverse_header
   label: Reverse header
   type: boolean
   hidden: false
-  default: ''
+  default: true
 - name: lead
   label: Lead
   type: textarea
   hidden: false
-  default: ''
+  default: Lead paragraph
 - name: cover_art_bg_color
   label: Cover art bg color
   type: text
   hidden: false
-  default: ''
+  default: red
 - name: cover_art_svg
   label: Cover art svg
   type: text
