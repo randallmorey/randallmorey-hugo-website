@@ -1,0 +1,40 @@
+---
+label: cover-art-article
+hide_body: 
+is_partial: 
+fields:
+- name: title
+  label: Title
+  type: text
+  hidden: false
+  default: ''
+- name: date
+  label: Date
+  type: datetime
+  hidden: false
+  default: ''
+- name: cover_art
+  label: Cover art
+  type: boolean
+  hidden: false
+  default: ''
+- name: reverse_header
+  label: Reverse header
+  type: boolean
+  hidden: false
+  default: ''
+- name: lead
+  label: Lead
+  type: textarea
+  hidden: false
+  default: ''
+- name: cover_art_bg_color
+  label: Cover art bg color
+  type: text
+  hidden: false
+  default: ''
+- name: cover_art_svg
+  label: Cover art svg
+  type: text
+  hidden: false
+  default: ''
