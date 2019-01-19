@@ -11,6 +11,8 @@ title = "Internationalization"
 +++
 Internationalized and localized applications reach more markets, help more people, and improve UX compared to single-language apps.  Moreover, i18n (as it is typically abbreviated), can serve development teams in one important way:  static content management, even if no language translation is ever performed.  Internationalization is a win-win, paying for its own development time.  But the real winners?  Happier users and a more inclusive web.
 
+Localized products, first and foremost, reach users who speak different languages.  Reaching more users is good for inclusivity and also happens to be good business.  There's another important benefit to localized products.  Many users may speak our language, but prefer using another.  For them, a translated application may be a better experience, even if they are fluent in the app's default language.
+
 ## ECMAScript Internationalization API
 
 ECMAScript quietly introduced the [internationalization API](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl "Intl API") back in December 2012.  Today, [all modern browsers support it](https://caniuse.com/#feat=internationalization "Intl API browser support").  Even [Node.js supports internationalization (although only English is available by default)](https://nodejs.org/docs/latest-v11.x/api/intl.html "Node.js Internationalization").  Support is broad enough that I can recommend adopting `Intl` in all new projects, with some caveats.
