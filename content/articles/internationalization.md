@@ -11,7 +11,9 @@ title = "Internationalization"
 +++
 Localized products are inclusive, reaching people who don't use its primary language.  Reaching more people happens to be good business.  But there's another class of user we should care about.  Many may be fluent in a product's primary language, but prefer using another.  For them, a translation is a better experience.  Happier users are also good for business.
 
-[A study prepared for the European Commission by Gallop](http://ec.europa.eu/commfrontoffice/publicopinion/flash/fl_313_en.pdf "User Language Preferences Online") found that _a majority of EU internet users readily use multiple languages to consume content_, and more than a third use multiple languages to create content.  It also found that while about half of users would merely accept English if no other option is available, almost all users would prefer their own language.
+[A study prepared for the European Commission by Gallop](http://ec.europa.eu/commfrontoffice/publicopinion/flash/fl_313_en.pdf "User Language Preferences Online") found that _a majority of EU internet users readily use multiple languages to consume content_, and more than a third use multiple languages to create content.  It also found that while about half of users would merely accept English if no other option is available, almost all would prefer their own language.
+
+There are a variety of cultural expectations even among those who do use a product's primary language.  Things like date and time formatting, numbers, and units of measure vary depending on region or individual preference.  I18n addresses these challenges as well.
 
 ## ECMAScript Internationalization API
 
