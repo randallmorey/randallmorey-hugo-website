@@ -1,6 +1,6 @@
 +++
 cover_art = true
-cover_art_bg_color = "red"
+cover_art_bg_color = "yellow"
 cover_art_svg = ""
 date = "2019-01-25T05:00:00+00:00"
 draft = true
@@ -21,7 +21,7 @@ Look out for additional features such as `Intl.RelativeTimeFormat` and `Intl.Lis
 
 Here are a few examples (your results may vary, since the default target timezone is the current host's).  [Check the docs for a complete API reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl "Intl API docs").
 
-```js
+{{< highlight js >}}
 const date = new Date(Date.UTC(2012, 0, 1, 0, 0, 0));
 console.log(new Intl.DateTimeFormat('en-US').format(date));
 // 12/31/2011
@@ -39,4 +39,4 @@ console.log(new Intl.NumberFormat('en', { style: 'currency', currency: 'EUR' }).
 // €123,456.79
 console.log(new Intl.NumberFormat('de-DE', { style: 'currency', currency: 'EUR' }).format(number));
 // 123.456,79 €
-```
+{{< /highlight >}}
