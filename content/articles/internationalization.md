@@ -4,7 +4,7 @@ cover_art_bg_color = "yellow"
 cover_art_svg = ""
 date = "2019-01-25T05:00:00+00:00"
 draft = true
-lead = "Internationalized and localized experiences reach more markets, help more people, and improve UX compared to single-language products.  Moreover, i18n (as it is typically abbreviated), can serve development teams in one important way:  static content management, even if no translation is ever performed.  Internationalization is a win-win, paying for its own development time.  But the real winners are happier users and a more inclusive web."
+lead = "Internationalized and localized experiences reach more markets, help more people, and improve UX compared to single-language products.  Moreover, i18n (as it is typically abbreviated), can serve development teams in one important way:  static content management, even if no translation is ever performed.  Internationalization is a win-win, paying for its own development time.  But the real winners are happier users and a more inclusive&nbsp;web."
 reverse_header = true
 title = "Internationalization"
 
