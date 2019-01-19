@@ -19,7 +19,7 @@ The internationalization API provides key formatting services for numbers (inclu
 
 Look out for additional features such as `Intl.RelativeTimeFormat` and `Intl.ListFormat` to land in capable browsers soon.
 
-Here are a few examples (your results may vary, since the default target timezone is the current host's).  [Check the docs for complete API reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl "Intl API docs").  Please note that currency formatting _does not handle currency exchange_.
+Here are a few examples (your results may vary, since the default target timezone is the current host's).  [Check the docs for complete API reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl "Intl API docs").  Please note that currency formatting _does not handle currency exchanges_.  If you need to display a value in multiple currencies at the same time, additional conversion is required.
 
 ```js
 const date = new Date(Date.UTC(2012, 0, 1, 0, 0, 0));
