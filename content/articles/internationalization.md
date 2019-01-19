@@ -19,10 +19,24 @@ The internationalization API provides key formatting services for numbers (inclu
 
 Look out for additional features such as `Intl.RelativeTimeFormat` and `Intl.ListFormat` to land in capable browsers soon.
 
-`Intl` is a powerful tool.  [Check the docs for complete API reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl "Intl API docs").  Here are a few examples (note that these may differ slightly, since the default timezone is the current host's):
+`Intl` is a powerful tool.  [Check the docs for complete API reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl "Intl API docs").  Here are a few examples (your results may vary, since the default target timezone is the current host's):
 
 ```js
-const date = new Date(Date.UTC(2012, 11, 20, 3, 0, 0));
-console.log(new Intl.DateTimeFormat('en-GB').format(date));
-// 20/12/2012
+const date = new Date(Date.UTC(2012, 0, 1, 0, 0, 0));
+console.log(new Intl.DateTimeFormat('en-US').format(date));
+// 12/31/2011
+
+const number = 123456.789;
+console.log(new Intl.NumberFormat('en-US', { maximumSignificantDigits: 3 }).format(number));
+// 123,000
+console.log(new Intl.NumberFormat('de', { maximumSignificantDigits: 3 }).format(number));
+// 123.000
+console.log(new Intl.NumberFormat('en-IN', { maximumSignificantDigits: 3 }).format(number));
+// 1,23,000
+console.log(new Intl.NumberFormat('en', { style: 'currency', currency: 'JPY' }).format(number));
+// ¥123,457
+console.log(new Intl.NumberFormat('en', { style: 'currency', currency: 'EUR' }).format(number));
+// €123,456.79
+console.log(new Intl.NumberFormat('de-DE', { style: 'currency', currency: 'EUR' }).format(number));
+// 123.456,79 €
 ```
