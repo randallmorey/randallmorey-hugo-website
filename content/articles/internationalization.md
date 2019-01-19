@@ -21,6 +21,8 @@ Look out for additional features such as `Intl.RelativeTimeFormat` and `Intl.Lis
 
 `Intl` is a powerful tool.  [Check the docs for complete API reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl "Intl API docs").  Here are a few examples (note that these may differ slightly, since the default timezone is the current host's):
 
-    const date = new Date(Date.UTC(2012, 11, 20, 3, 0, 0));
-    console.log(new Intl.DateTimeFormat('en-GB').format(date));
-    // 20/12/2012
+```js
+const date = new Date(Date.UTC(2012, 11, 20, 3, 0, 0));
+console.log(new Intl.DateTimeFormat('en-GB').format(date));
+// 20/12/2012
+```
