@@ -9,7 +9,7 @@ reverse_header = true
 title = "Internationalization"
 
 +++
-Internationalized and localized applications reach more markets, help more people, and improve UX compared to single-language apps.  Moreover, i18n (as it is typically abbreviated), can serve development teams in one important way:  static content management, even if no language translation is ever performed.  Internationalization is a win-win, paying for its own development time.  The real winners?  Happier users and a more inclusive web.
+Internationalized and localized experiences reach more markets, help more people, and improve UX compared to single-language products.  Moreover, i18n (as it is typically abbreviated), can serve development teams in one important way:  static content management, even if no language translation is ever performed.  Internationalization is a win-win, paying for its own development time.  The real winners?  Happier users and a more inclusive web.
 
 Localized products are inclusive, reaching people who don't use a product's primary language.  Reaching more users also happens to be good business.  But there's another class of user we should care about.  Many may be fluent in a product's primary language, but prefer using another.  For them, a translation can be a better experience.
 
