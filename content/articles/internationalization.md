@@ -4,13 +4,11 @@ cover_art_bg_color = "yellow"
 cover_art_svg = ""
 date = "2019-01-25T05:00:00+00:00"
 draft = true
-lead = "Reach a more diverse, global audience through internationalization and localization."
+lead = "Internationalized and localized experiences reach more markets, help more people, and improve UX compared to single-language products.  Moreover, i18n (as it is typically abbreviated), can serve development teams in one important way:  static content management, even if no language translation is ever performed.  Internationalization is a win-win, paying for its own development time.  The real winners?  Happier users and a more inclusive web."
 reverse_header = true
 title = "Internationalization"
 
 +++
-Internationalized and localized experiences reach more markets, help more people, and improve UX compared to single-language products.  Moreover, i18n (as it is typically abbreviated), can serve development teams in one important way:  static content management, even if no language translation is ever performed.  Internationalization is a win-win, paying for its own development time.  The real winners?  Happier users and a more inclusive web.
-
 Localized products are inclusive, reaching people who don't use a product's primary language.  Reaching more users also happens to be good business.  But there's another class of user we should care about.  Many may be fluent in a product's primary language, but prefer using another.  For them, a translation can be a better experience.
 
 [A study prepared for the European Commission by Gallop](http://ec.europa.eu/commfrontoffice/publicopinion/flash/fl_313_en.pdf "User Language Preferences Online") found that _a majority of EU internet users readily use multiple languages to consume content_, and more than a third use multiple languages to create content.  It also found that while about half of users would merely accept English if no other option is available, almost all users would prefer their own language.
