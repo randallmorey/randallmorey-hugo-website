@@ -1,25 +1,26 @@
-+++
-cover_art = true
-cover_art_bg_color = "yellow"
-cover_art_svg = ""
-date = "2019-01-25T05:00:00+00:00"
-draft = true
-lead = "Help more people, reach more markets, and improve UX by adopting internationalization in online products.  <abbr title=\"internationalization\">I18n</abbr>--as it is typically abbreviated--serves development teams in one important way:  static content management, even if no translation is ever performed.  Internationalization is a win-win, paying for its own development time.  But the real winners are happier users and a more inclusive&nbsp;web."
-reverse_header = true
-title = "Internationalization"
+---
+cover_art: true
+cover_art_bg_color: "yellow"
+cover_art_svg: ""
+date: 2019-01-25T05:00:00+00:00
+draft: true
+lead: >
+  Reach more people online, improve UX, and even DRY up code.  Internationalization benefits users, development teams, and business.  Users get their pick of language.  Development teams get much-overlooked static content management.  And business gets broader market reach.  <abbr title="internationalization">I18n</abbr> pays for itself even in single-language products.  But the real winners are happier users and a more inclusive&nbsp;web.
+reverse_header: true
+title: "Internationalization"
+---
 
-+++
-A localized product is inclusive, reaching people who don't use its primary language.  Reaching more people happens to be good business.  But there's another class of user we should care about.  Many may be fluent in a product's primary language, but prefer using another.  For them, a translation is a better experience.  Happier users are also good for business.
+[A Gallop study for the European Commission](http://ec.europa.eu/commfrontoffice/publicopinion/flash/fl_313_en.pdf "User Language Preferences Online") found that **a majority of European internet users consume content in multiple languages**.  More than a third create content in multiple languages.  Among its findings is that, unsurprisingly, users prefer their own language.  Only about a half accept English if their preferred language is unavailable.
 
 <!--more-->
 
-[A study prepared for the European Commission by Gallop](http://ec.europa.eu/commfrontoffice/publicopinion/flash/fl_313_en.pdf "User Language Preferences Online") found that _a majority of EU internet users readily use multiple languages to consume content_, and more than a third use multiple languages to create content.  It also found that while about half of users would merely accept English if no other option is available, almost all would prefer their own language.
+Language is just one component of internationalization.  Cultural expectations also impact UX; concerns like date and time, numbers, and systems of measure vary by region or individual preference.  I18n addresses these challenges too.
 
-Diverse cultural expectations even among those who do use a product's primary language affect experiences.  Concerns like date and time formatting, numbers, and units of measure vary by region or individual preference.  I18n addresses these challenges as well as language.
+Thus, products still benefit from i18n where there is only one target language.
 
 ## ECMAScript Internationalization API
 
-ECMAScript quietly introduced the [internationalization API](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl "Intl API") back in December 2012.  Today, [all modern browsers support it](https://caniuse.com/#feat=internationalization "Intl API browser support").  Even [Node.js supports internationalization (although only English is available by default)](https://nodejs.org/docs/latest-v11.x/api/intl.html "Node.js Internationalization").  Support is broad enough that I can recommend adopting `Intl` in all new projects, with some caveats.
+ECMAScript quietly introduced the [internationalization API](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl "Intl API") back in December 2012.  Today, [all modern browsers support `Intl`](https://caniuse.com/#feat=internationalization "Intl API browser support").  [Even Node.js supports internationalization](https://nodejs.org/docs/latest-v11.x/api/intl.html "Node.js Internationalization").  The `Intl` API is fit for use in all new projects.
 
 The internationalization API provides key formatting services for numbers (including currencies), dates & times, and language-aware sorting.  It handles all of this _natively_.  Previously, such tasks required byte-heavy third-party libraries and their locale data files.  Though some features are not widely supported yet, such as relative times (e.g. "30s ago").  Watch for additional features to land in capable browsers soon.
 
