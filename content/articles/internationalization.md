@@ -19,11 +19,15 @@ For better or worse, [English is the world's _lingua franca_](https://en.wikiped
 
 <!--more-->
 
+...needs better transition to EU, maybe an intro on EU languages...
+
 [A Gallop study for the European Commission](http://ec.europa.eu/commfrontoffice/publicopinion/flash/fl_313_en.pdf "User Language Preferences Online") found that **a majority of European internet users consume content in multiple languages**.  More than a third create content in multiple languages.  Among its findings is that, unsurprisingly, users prefer their native language.  Only about a half accept English if their preferred language is unavailable.
 
 ## Culture
 
 Language is just one component of internationalization.  Cultural expectations play a roll:  concerns like date & time formatting, numbers, and systems of measure vary by region or individual preference.  I18n addresses these challenges too.  Thus, products with only one target language still benefit.
+
+... maybe illustrate with examples ...
 
 ## Silicon Valley Speak
 
