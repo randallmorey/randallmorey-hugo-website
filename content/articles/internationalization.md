@@ -31,7 +31,7 @@ Language is just one component of internationalization.  Cultural expectations p
 
 ## Silicon Valley Speak
 
-It's tempting to imagine that internationalization is unnecessary for software products intended for a technical audience.  These users are proficient in some form of standardized technical English, right?
+It's tempting to imagine that internationalization is unnecessary for software products intended for a technical audience.  These users are proficient in some form of standardized technical English, right?  Well yes, but it's more complicated.
 
 [Within Silicon Valley, a majority of the college-educated technology workforce is foreign-born](https://qz.com/1029860/more-silicon-valley-tech-workers-were-born-outside-the-us-than-in-it/).  Even within New York City, a greater share of educated tech workers were born outside of the US than within.  Since U.S. formatting conventions are unique, we already know that a probable majority of technology workers _within Silicon Valley_ prefer _non-U.S. formatting_ for dates & times, numbers, and measures.
 
