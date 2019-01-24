@@ -19,7 +19,7 @@ For better or worse, [English is the world's _lingua franca_](https://en.wikiped
 
 <!--more-->
 
-Despite the ubiquity of English, it's not as widely _preferred_.  [A Gallop study for the European Commission](http://ec.europa.eu/commfrontoffice/publicopinion/flash/fl_313_en.pdf "User Language Preferences Online") found that **a majority of European internet users consume content in multiple languages**.  More than a third create content in multiple languages.  Among its findings is that, unsurprisingly, users prefer their native language.  Only about a half accept English if their preferred language is unavailable.
+Despite the ubiquity of English, it's not as widely _preferred_.  [A Gallop study for the European Commission](http://ec.europa.eu/commfrontoffice/publicopinion/flash/fl_313_en.pdf "User Language Preferences Online") found that **a majority of European internet users consume content in multiple languages**.  More than a third create content in multiple languages.  Among its findings is that, unsurprisingly, users prefer their native languages.  Only about a half accept English if their preferred language is unavailable.
 
 ## Culture
 
