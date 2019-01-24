@@ -23,8 +23,6 @@ For better or worse, [English is the world's _lingua franca_](https://en.wikiped
 
 It's tempting to imagine that internationalization is unnecessary for pure technology products intended for a technical audience.  After all, they speak some form of standardized technical English, right?  Actually, English may be merely a convention in tech circles.  [Within Silicon Valley, a majority of the college-educated technology workforce is foreign-born](https://qz.com/1029860/more-silicon-valley-tech-workers-were-born-outside-the-us-than-in-it/).  Even within New York City, a greater share of educated tech workers were born outside of the US than within.  Since the U.S. is an outlier, we already know that a probable majority of technology workers _within the United States_ prefer non-American formatting for dates & times, numbers, and measures.  It's not difficult to see how they might also benefit from an availability of language alternatives.
 
-But we're not just building for people like us.
-
 ## Culture
 
 Language is just one component of internationalization.  Cultural expectations also impact UX; concerns like date and time, numbers, and systems of measure vary by region or individual preference.  I18n addresses these challenges too.  Thus, products with only one target language still benefit.
