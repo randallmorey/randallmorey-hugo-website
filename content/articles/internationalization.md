@@ -23,7 +23,7 @@ Despite the ubiquity of English, it's not as widely _preferred_.  [A Gallop stud
 
 ## Culture
 
-Language is just one component of internationalization.  Cultural expectations play a roll:  concerns like date & time formatting, numbers, and systems of measure vary by region or individual preference.  I18n addresses these challenges too.  Thus, products with only one target language still benefit... elaborate on this.
+Language is just one component of internationalization.  Cultural expectations play a roll:  concerns like date & time formatting, numbers, and systems of measure vary by region or individual preference.  I18n addresses these challenges too.  Thus, products with only one target language still benefit... -elaborate on this-.
 
 ... maybe illustrate with examples ...
 
