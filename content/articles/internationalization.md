@@ -35,7 +35,7 @@ It's tempting to imagine that internationalization is unnecessary for software p
 
 [Within Silicon Valley, a majority of the college-educated technology workforce is foreign-born](https://qz.com/1029860/more-silicon-valley-tech-workers-were-born-outside-the-us-than-in-it/).  Even within New York City, a greater share of educated tech workers were born outside of the US than within.  Since U.S. formatting conventions are unique, we already know that a probable majority of technology workers _within Silicon Valley_ prefer _non-U.S. formatting_ for dates & times, numbers, and measures.
 
-What about languages?  [Silicon Valley is _majority multilingual_](https://siliconvalleyindicators.org/data/people/talent-flows-diversity/foreign-language/population-share-that-speaks-a-language-at-home-other-than-exclusively-english-table/), according to data collected from the U.S. Census and American Community Survey by Silicon Valley Institute for Regional Studies.  In 2017, more than half of Silicon Valley households speaks another language at home other than English.  That's a greater share than either California or the U.S.
+What about languages?  [Silicon Valley is _majority multilingual_](https://siliconvalleyindicators.org/data/people/talent-flows-diversity/foreign-language/population-share-that-speaks-a-language-at-home-other-than-exclusively-english-table/), according to data collected from the U.S. Census and American Community Survey by Silicon Valley Institute for Regional Studies.  In 2017, more than half of Silicon Valley households speak another language at home other than English.  That's a greater share than either California or the U.S.
 
 ## i18n
 
