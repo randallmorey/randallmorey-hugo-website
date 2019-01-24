@@ -21,11 +21,19 @@ draft: true
 
 For better or worse, [English is the world's _lingua franca_](https://en.wikipedia.org/wiki/English_as_a_lingua_franca), particularly in business and technology.  But English is not the world's most spoken _first_ language.  By native-speaker population, [**Chinese** is the most widely spoken language globally](https://en.wikipedia.org/wiki/List_of_languages_by_number_of_native_speakers "List of languages by native speakers"), followed by **Spanish**, **English**, **Hindi**, **Arabic**, and **Portuguese**.  The United States shares the world's top-three languages in reverse order: [English is the most widely-spoken language](https://en.wikipedia.org/wiki/Languages_of_the_United_States) at more than 200 million speakers.  Spanish and Chinese are second- and third-place, respectively.
 
-It's tempting to imagine that internationalization is unnecessary for pure technology products intended for a technical audience.  After all, they speak some form of standardized technical English, right?  Actually, English may be merely a convention in tech circles.  [Within Silicon Valley, a majority of the college-educated technology workforce is foreign-born](https://qz.com/1029860/more-silicon-valley-tech-workers-were-born-outside-the-us-than-in-it/).  Even within New York City, a greater share of educated tech workers were born outside of the US than within.  Since the U.S. is an outlier, we already know that a probable majority of technology workers _within the United States_ prefer non-American formatting for dates & times, numbers, and measures.  It's not difficult to see how they might also benefit from an availability of language alternatives.
+Language is just one reason to internationalize.  Let's take a look at cultural expectations that may also affect acceptance.
 
 ## Culture
 
-Language is just one component of internationalization.  Cultural expectations also impact UX; concerns like date and time, numbers, and systems of measure vary by region or individual preference.  I18n addresses these challenges too.  Thus, products with only one target language still benefit.
+Language is just one component of internationalization.  Cultural expectations play a roll:  concerns like date & time formatting, numbers, and systems of measure vary by region or individual preference.  I18n addresses these challenges too.  Thus, products with only one target language still benefit.
+
+## Silicon Valley Speak
+
+It's tempting to imagine that internationalization is unnecessary for software products intended for a technical audience.  These users are proficient in some form of standardized technical English, right?
+
+[Within Silicon Valley, a majority of the college-educated technology workforce is foreign-born](https://qz.com/1029860/more-silicon-valley-tech-workers-were-born-outside-the-us-than-in-it/).  Even within New York City, a greater share of educated tech workers were born outside of the US than within.  Since U.S. formatting conventions are unique, we already know that a probable majority of technology workers _within Silicon Valley_ prefer _non-U.S. formatting_ for dates & times, numbers, and measures.
+
+What about languages?  [Silicon Valley is _majority multilingual_](https://siliconvalleyindicators.org/data/people/talent-flows-diversity/foreign-language/population-share-that-speaks-a-language-at-home-other-than-exclusively-english-table/), according to data collected from the U.S. Census and American Community Survey by Silicon Valley Institute for Regional Studies.  In 2017, more than half of Silicon Valley households speaks another language at home other than English.  That's a greater share than either California or the U.S.
 
 ## i18n
 
