@@ -23,13 +23,13 @@ However, English may not be as preferable as it is ubiquitous.  [A Gallop study 
 
 What about software developers, engineers, and other technology workers?  It's tempting to imagine that internationalization is unnecessary for a purely technical audience.  These users are proficient in some pseudo-standardized technical English, right?  And does it even matter if our clients don't explicitly demand i18n?
 
-[Within Silicon Valley, a majority of the college-educated technology workforce is foreign-born](https://qz.com/1029860/more-silicon-valley-tech-workers-were-born-outside-the-us-than-in-it/).  Even within New York City, a greater share of educated tech workers were born outside of the US than within.  Since U.S. formatting conventions are unique, we can conjecture that a significant share of technology workers _within Silicon Valley_ prefers non-U.S. formatting for dates & times, numbers, and measures.
+[Within Silicon Valley, a majority of the college-educated technology workforce is foreign-born](https://qz.com/1029860/more-silicon-valley-tech-workers-were-born-outside-the-us-than-in-it/).  Even within New York City, a greater share of educated tech workers were born outside of the U.S. than within.  [Silicon Valley is also _majority multilingual_](https://siliconvalleyindicators.org/data/people/talent-flows-diversity/foreign-language/population-share-that-speaks-a-language-at-home-other-than-exclusively-english-table/).  In 2017, more than half of Silicon Valley households spoke a language at home other than English, more than either California or the U.S.
 
-What about language?  [Silicon Valley is _majority multilingual_](https://siliconvalleyindicators.org/data/people/talent-flows-diversity/foreign-language/population-share-that-speaks-a-language-at-home-other-than-exclusively-english-table/).  In 2017, more than half of Silicon Valley households spoke a language at home other than English, a greater percentage than either California or the U.S.
+These data also hint at another important factor of i18n:  culture.
 
 ## Culture
 
-Language availability is just one component of internationalization.  Cultural expectations play an important roll:  concerns like date & time formatting, numbers, and systems of measure vary by region or individual preference.  I18n addresses these challenges too.  Thus, products with only one target language still benefit... -elaborate on this-.
+Language is just one component of internationalization.  Concerns like date & time formatting, numbers, and systems of measure vary by region or individual preference.  I18n addresses these challenges too.  Thus, products with only one target language still benefit... -elaborate on this-.
 
 ... maybe illustrate with examples ...
 
