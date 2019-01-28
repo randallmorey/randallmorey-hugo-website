@@ -29,7 +29,7 @@ These data hint at another important factor of i18n:  culture.
 
 ## Culture
 
-Language is only one component of internationalization.  Concerns like date & time formatting, numbers, and systems of measure vary by region or individual preference.  I18n addresses these challenges too.  Let's explore some examples of cultural formatting differences.  While many of these may be well understood, it's worth revisiting.
+Language is only one component of internationalization.  Concerns like date & time formatting, numbers, and systems of measure vary by region or individual preference.  I18n addresses these challenges too.  Let's explore some examples of cultural formatting differences.  While some of these cultural differences may be familiar, they're worth reviewing.
 
 Most extant cultures write dates in logical order of significance, with regional differences in endianness.  [In all-numeric dates and times these forms are unambiguous almost everywhere](https://en.wikipedia.org/wiki/Date_format_by_country).  [Times are typically written in 24 hours almost everywhere](https://en.wikipedia.org/wiki/24-hour_clock) too, with regional differences in spoken time.
 
