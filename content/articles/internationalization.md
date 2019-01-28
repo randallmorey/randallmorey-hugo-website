@@ -17,7 +17,7 @@ For better or worse, [English is the world's _lingua franca_](https://en.wikiped
 
 <!--more-->
 
-However, English may not be as preferable as it is ubiquitous.  [A Gallop study for the European Commission](http://ec.europa.eu/commfrontoffice/publicopinion/flash/fl_313_en.pdf "User Language Preferences Online") found that **a majority of European internet users consume content in multiple languages**.  More than a third create content in multiple languages.  Among its findings is that, unsurprisingly, users prefer their native languages.  Only about a half accept English if their preferred language is unavailable.
+English, however, may not be as preferable as it is ubiquitous.  [A Gallop study for the European Commission](http://ec.europa.eu/commfrontoffice/publicopinion/flash/fl_313_en.pdf "User Language Preferences Online") found that **a majority of European internet users consume content in multiple languages**.  More than a third create content in multiple languages.  Among its findings is that, unsurprisingly, users prefer their native languages.  Only about a half accept English if their preferred language is unavailable.
 
 ## Language in Technology Circles
 
@@ -33,7 +33,7 @@ Language is only one component of internationalization.  Concerns like date & ti
 
 Most extant cultures write dates in logical order of significance, with regional differences in endianness.  [In all-numeric dates and times these forms are unambiguous almost everywhere](https://en.wikipedia.org/wiki/Date_format_by_country).  [Times are typically written in 24 hours almost everywhere](https://en.wikipedia.org/wiki/24-hour_clock) too, with regional differences in spoken time.
 
-Among the many ways that the United States is a cultural outlier is its use of 12-hour time, even in writing.  It also uses a form of date notation 
+Among the many ways that the United States is a cultural outlier is its use of 12-hour time, even in writing.  It also uses a form of date notation
 
 https://en.wikipedia.org/wiki/Date_and_time_notation_in_the_United_States
 
