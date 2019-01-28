@@ -21,7 +21,7 @@ English may not be as preferable as it is ubiquitous.  [A Gallop study for the E
 
 ## Language in Technology Circles
 
-What about software developers and other STEM workers?  It's tempting to imagine that internationalization is unnecessary for a purely technical audience.  These users are proficient in some form of standardized technical English, right?  And does it even matter if clients don't explicitly demand i18n?
+What about software developers and other STEM workers?  It's tempting to imagine that internationalization is unnecessary for a purely technical audience.  These users are proficient in some pseudo-standardized technical English, right?  And does it even matter if clients don't explicitly demand i18n?
 
 [Within Silicon Valley, a majority of the college-educated technology workforce is foreign-born](https://qz.com/1029860/more-silicon-valley-tech-workers-were-born-outside-the-us-than-in-it/).  Even within New York City, a greater share of educated tech workers were born outside of the US than within.  Since U.S. formatting conventions are unique, we can conjecture that a significant share of technology workers _within Silicon Valley_ prefers non-U.S. formatting for dates & times, numbers, and measures.
 
