@@ -23,7 +23,7 @@ What about software developers, engineers, and other technology workers?  It's t
 
 [Within Silicon Valley, a majority of the college-educated technology workforce is foreign-born](https://qz.com/1029860/more-silicon-valley-tech-workers-were-born-outside-the-us-than-in-it/).  Even within New York City, a greater share of educated tech workers were born outside of the U.S. than within.  [Silicon Valley is also _majority multilingual_](https://siliconvalleyindicators.org/data/people/talent-flows-diversity/foreign-language/population-share-that-speaks-a-language-at-home-other-than-exclusively-english-table/).  In 2017, more than half of its households spoke a language other than English, a greater share than either California or the U.S.
 
-These data hint at another important factor of i18n:  culture.  Not everyone--more accurately, _almost no one_--uses American notation.
+These data hint at another important factor of i18n.  Culture affects the way we write and communicate information independently of language.  And not everyone--more accurately, _almost no one_--uses American systems of notation.
 
 ## Culture
 
