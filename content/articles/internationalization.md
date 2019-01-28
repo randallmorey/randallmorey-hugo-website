@@ -31,7 +31,7 @@ Language is only one component of internationalization.  Concerns like date & ti
 
 Most extant cultures write dates in logical order of significance, with regional differences in endianness.  [In all-numeric dates and times these forms are unambiguous almost everywhere](https://en.wikipedia.org/wiki/Date_format_by_country).  [Times are typically written in 24 hours almost everywhere](https://en.wikipedia.org/wiki/24-hour_clock) too, with regional differences in spoken time.
 
-Among the many ways that the United States is a cultural outlier is its use of 12-hour time, even in writing.  It also uses a form of date notation
+Among the many ways that the United States is a cultural outlier is its use of 12-hour time, even in writing.  Other countries that still use 12-hour time typically do so only colloquially, preferring 24-hour time in writing.  It also uses an arbitrary form of date notation that defies logic not ordered in terms of significance.  In using the U.S. customary measurement system, the country is almost completely alone.
 
 https://en.wikipedia.org/wiki/Date_and_time_notation_in_the_United_States
 
