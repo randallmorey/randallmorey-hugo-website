@@ -4,10 +4,9 @@ cover_art_bg_color: red
 cover_art_svg: ''
 date: 2019-01-25 05:00:00 +0000
 lead: 'Reach more people online, improve UX, and even DRY up code.  Internationalization
-  benefits users, development teams, and business.  Users get their pick of language.  Developers
-  get static content management.  And business gets broader market reach.  <abbr title="internationalization">I18n</abbr>
-  can pay for itself even in single-language apps.  But the real winners are happier
-  users and a more inclusive&nbsp;web.
+  benefits all stakeholders:  users, development teams, and business.  Developers
+  get static content management.  Business gets broader market reach.  But the real
+  winners are happier users and a more inclusive&nbsp;web.
 
 '
 reverse_header: true
