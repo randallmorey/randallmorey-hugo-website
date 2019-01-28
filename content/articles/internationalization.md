@@ -4,7 +4,7 @@ cover_art_bg_color: red
 cover_art_svg: ''
 date: 2019-01-25 05:00:00 +0000
 lead: 'Reach more people online, improve UX, and even DRY up code.  Internationalization
-  benefits all stakeholders.  Developers get static content management.  Business
+  benefits all stakeholders.  Developers get static content management and business
   gets broader market reach.  But the real winners are happier users and a more inclusive&nbsp;web.
 
 '
