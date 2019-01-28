@@ -3,9 +3,9 @@ cover_art: true
 cover_art_bg_color: red
 cover_art_svg: ''
 date: 2019-01-25 05:00:00 +0000
-lead: 'Reach more people online, improve UX, and even DRY up code.  Internationalization
-  benefits all stakeholders.  Developers get static content management and business
-  gets broader market reach.  But the real winners are happier users and a more inclusive&nbsp;web.
+lead: 'Internationalization benefits all stakeholders through greater language availability,
+  broader market reach, and content separation.    The true winners?  Happier users,
+  and more of them.  It''s one more way we can build an inclusive&nbsp;web.
 
 '
 reverse_header: true
@@ -29,7 +29,7 @@ What about language?  [Silicon Valley is _majority multilingual_](https://silico
 
 ## Culture
 
-Language is just one component of internationalization.  Cultural expectations play a roll:  concerns like date & time formatting, numbers, and systems of measure vary by region or individual preference.  I18n addresses these challenges too.  Thus, products with only one target language still benefit... -elaborate on this-.
+Language availability is just one component of internationalization.  Cultural expectations play an important roll:  concerns like date & time formatting, numbers, and systems of measure vary by region or individual preference.  I18n addresses these challenges too.  Thus, products with only one target language still benefit... -elaborate on this-.
 
 ... maybe illustrate with examples ...
 
