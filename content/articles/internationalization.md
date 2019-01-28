@@ -25,13 +25,19 @@ What about software developers, engineers, and other technology workers?  It's t
 
 [Within Silicon Valley, a majority of the college-educated technology workforce is foreign-born](https://qz.com/1029860/more-silicon-valley-tech-workers-were-born-outside-the-us-than-in-it/).  Even within New York City, a greater share of educated tech workers were born outside of the U.S. than within.  [Silicon Valley is also _majority multilingual_](https://siliconvalleyindicators.org/data/people/talent-flows-diversity/foreign-language/population-share-that-speaks-a-language-at-home-other-than-exclusively-english-table/).  In 2017, more than half of its households spoke a language other than English, a greater share than either California or the U.S.
 
-These data also hint at another important factor of i18n:  culture.
+These data hint at another important factor of i18n:  culture.
 
 ## Culture
 
-Language is just one component of internationalization.  Concerns like date & time formatting, numbers, and systems of measure vary by region or individual preference.  I18n addresses these challenges too.  Thus, products with only one target language still benefit... -elaborate on this-.
+Language is only one component of internationalization.  Concerns like date & time formatting, numbers, and systems of measure vary by region or individual preference.  I18n addresses these challenges too.  Let's explore some examples of cultural formatting differences.  While many of these may be well understood, it's worth revisiting.
 
-... maybe illustrate with examples ...
+Most extant cultures write dates in logical order of significance, with regional differences in endianness.  [In all-numeric dates and times these forms are unambiguous almost everywhere](https://en.wikipedia.org/wiki/Date_format_by_country).  [Times are typically written in 24 hours almost everywhere](https://en.wikipedia.org/wiki/24-hour_clock) too, with regional differences in spoken time.
+
+Among the many ways that the United States is a cultural outlier is its use of 12-hour time, even in writing.  It also uses a form of date notation 
+
+https://en.wikipedia.org/wiki/Date_and_time_notation_in_the_United_States
+
+[https://en.wikipedia.org/wiki/12-hour_clock](https://en.wikipedia.org/wiki/12-hour_clock "https://en.wikipedia.org/wiki/12-hour_clock")
 
 ### i18n
 
