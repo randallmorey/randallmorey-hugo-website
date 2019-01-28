@@ -1,6 +1,6 @@
 ---
 cover_art: true
-cover_art_bg_color: yellow
+cover_art_bg_color: red
 cover_art_svg: ''
 date: 2019-01-25 05:00:00 +0000
 lead: 'Reach more people online, improve UX, and even DRY up code.  Internationalization
@@ -21,6 +21,14 @@ For better or worse, [English is the world's _lingua franca_](https://en.wikiped
 
 Despite the ubiquity of English, it's not as widely _preferred_.  [A Gallop study for the European Commission](http://ec.europa.eu/commfrontoffice/publicopinion/flash/fl_313_en.pdf "User Language Preferences Online") found that **a majority of European internet users consume content in multiple languages**.  More than a third create content in multiple languages.  Among its findings is that, unsurprisingly, users prefer their native languages.  Only about a half accept English if their preferred language is unavailable.
 
+### i18n
+
+Let's take a moment to cover some basic terminology.  [Internationalization](https://en.wikipedia.org/wiki/Internationalization_and_localization) is the process of adding support to a product for multiple locales (languages and regions), such that it can be translated without additional engineering effort.
+
+### L10n
+
+The choice to **localize** is ultimately a business decision.  The choice to **internationalize** is an engineering decision, which may be justified even if only one locale is supported.
+
 ## Culture
 
 Language is just one component of internationalization.  Cultural expectations play a roll:  concerns like date & time formatting, numbers, and systems of measure vary by region or individual preference.  I18n addresses these challenges too.  Thus, products with only one target language still benefit... -elaborate on this-.
@@ -35,13 +43,13 @@ It's tempting to imagine that internationalization is unnecessary for software p
 
 What about language?  [Silicon Valley is _majority multilingual_](https://siliconvalleyindicators.org/data/people/talent-flows-diversity/foreign-language/population-share-that-speaks-a-language-at-home-other-than-exclusively-english-table/).  In 2017, more than half of Silicon Valley households spoke a language at home other than English, a greater percentage than either California or the U.S.
 
-## i18n
+## It Takes a Team
 
-[Internationalization](https://en.wikipedia.org/wiki/Internationalization_and_localization) is the process of adding support to a product for multiple locales (languages and regions), such that it can be translated without additional engineering effort.
+It's a process that takes a team.  Business decision.  Human translators are better.  Engineers can enable localization to happen.  But they can also be the prime-movers...
 
-## L10n
+## Static Content Management
 
-The choice to **localize** is ultimately a business decision.  The choice to **internationalize** is an engineering decision, which may be justified even if only one locale is supported.
+Building with i18n in mind benefits engineering too:  static content management.  Separate content from templates and functional code.  DRY.  Consistency.  Yay.
 
 ## ECMAScript Internationalization API
 
