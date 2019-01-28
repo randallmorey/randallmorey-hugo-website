@@ -19,8 +19,6 @@ For better or worse, [English is the world's _lingua franca_](https://en.wikiped
 
 English, however, may not be as preferable as it is ubiquitous.  [A Gallop study for the European Commission](http://ec.europa.eu/commfrontoffice/publicopinion/flash/fl_313_en.pdf "User Language Preferences Online") found that **a majority of European internet users consume content in multiple languages**.  More than a third create content in multiple languages.  Among its findings is that, unsurprisingly, users prefer their native languages.  Only about a half accept English if their preferred language is unavailable.
 
-## Language in Technology Circles
-
 What about software developers, engineers, and other technology workers?  It's tempting to imagine that internationalization is unnecessary for a purely technical audience.  These users are proficient in some pseudo-standardized technical English, right?  And does it even matter if our clients don't explicitly demand i18n?
 
 [Within Silicon Valley, a majority of the college-educated technology workforce is foreign-born](https://qz.com/1029860/more-silicon-valley-tech-workers-were-born-outside-the-us-than-in-it/).  Even within New York City, a greater share of educated tech workers were born outside of the U.S. than within.  [Silicon Valley is also _majority multilingual_](https://siliconvalleyindicators.org/data/people/talent-flows-diversity/foreign-language/population-share-that-speaks-a-language-at-home-other-than-exclusively-english-table/).  In 2017, more than half of its households spoke a language other than English, a greater share than either California or the U.S.
