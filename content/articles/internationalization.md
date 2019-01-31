@@ -17,7 +17,7 @@ For better or worse, [English is the world's _lingua franca_](https://en.wikiped
 
 <!--more-->
 
-English, however, may not be as preferable as it is ubiquitous.  [A Gallop study for the European Commission](http://ec.europa.eu/commfrontoffice/publicopinion/flash/fl_313_en.pdf "User Language Preferences Online") found that **a majority of European internet users consume content in multiple languages**.  More than a third create content in multiple languages.  Among its findings is that, unsurprisingly, users prefer their native linguas.  Only about a half accept English if their preferred language is unavailable.
+English, however, may not be as preferable as it is ubiquitous.  [A Gallop study for the European Commission](http://ec.europa.eu/commfrontoffice/publicopinion/flash/fl_313_en.pdf "User Language Preferences Online") found that **a majority of European internet users consume content in multiple languages**.  More than a third create content in multiple languages.  Among its findings is that, unsurprisingly, users prefer their native linguas.  Only about half accept English if their preferred language is unavailable.
 
 What about software developers, engineers, and other technology workers?  It's tempting to imagine that internationalization is unnecessary for a purely technical audience.  These users are proficient in some pseudo-standardized technical English, right?  And does it even matter if our clients don't explicitly demand i18n?
 
