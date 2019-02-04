@@ -29,7 +29,15 @@ Language is only one component of internationalization.  Concerns like date & ti
 
 ### Numbers
 
-The modern [Hindu-Arabic number system is used around the world](https://www.britannica.com/topic/Hindu-Arabic-numerals) across almost all cultures.  But two conspicuous details vary greatly by locale:  numerals and formatting.
+[This Hindu-Arabic number system is universal](https://www.britannica.com/topic/Hindu-Arabic-numerals).
+
+While universal, two conspicuous details vary greatly by locale:  numerals and formatting.
+
+#### Numerals
+
+numerals!
+
+#### Number Formatting
 
 Number formatting can differ dramatically by locale.  Delimiters and decimals are variously dots `.`, commas `,`, or spaces ` `.  Some locales may prefer non-Consider these examples of the number 
 
