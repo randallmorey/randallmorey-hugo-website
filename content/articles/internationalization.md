@@ -5,7 +5,7 @@ cover_art_svg: ''
 date: 2019-01-25 05:00:00 +0000
 lead: 'Internationalization benefits all stakeholders through greater language availability,
   broader market reach, and separation of content from code.  The true winners?  Happier
-  users, and more of them.  It''s one more way we can build an inclusive&nbsp;web.
+  users, and more of them.  It''s one more way we can build a more inclusive&nbsp;web.
 
 '
 reverse_header: true
@@ -27,9 +27,15 @@ These data hint at another important factor of i18n.  Culture affects the ways w
 
 Language is only one component of internationalization.  Concerns like date & time formatting, numbers, and systems of measure vary by region or individual preference.  I18n addresses these challenges too.  Let's explore some cultural differences.
 
+The modern Hindu-Arabic number system is essentially the only system 
+
+Number formatting can differ dramatically by locale.  Delimiters and decimals are variously dots `.`, commas `,`, or spaces ` `.  Some locales may prefer non-Consider these examples of the number 
+
 [Times are typically written in 24 hours almost everywhere](https://en.wikipedia.org/wiki/24-hour_clock), with regional differences in spoken time.  In the U.K. and Brazil, time is _spoken in 12 hours_, but written in 24 hours.  The United States is perhaps the most idiosyncratic here, [retaining the use of 12-hour time, even in writing](https://en.wikipedia.org/wiki/12-hour_clock).  Only a handful of other countries still use 12-hour time in writing.
 
-Most extant cultures write dates in logical order of significance, with regional differences in endianness.  [In all-numeric dates and times these forms are unambiguous almost everywhere](https://en.wikipedia.org/wiki/Date_format_by_country).  [The U.S. uses an arbitrary notation that so defies logic the country is almost entirely alone in the world](https://en.wikipedia.org/wiki/Date_and_time_notation_in_the_United_States).  Finally, the U.S. is one of only three countries still using non-SI systems of measure, along with Myanmar and Liberia.  It's a distinguished list.  [Myanmar, for its part, is moving toward SI](https://web.archive.org/web/20150324092305/http://elevenmyanmar.com/index.php?option=com_content&view=article&id=3684:myanmar-to-adopt-metric-system&catid=44:national&Itemid=384).
+Most extant cultures write dates in logical order of significance, with regional differences in endianness.  [In all-numeric dates and times these forms are unambiguous almost everywhere](https://en.wikipedia.org/wiki/Date_format_by_country).  [The U.S. uses an arbitrary notation that so defies logic the country is almost entirely alone in the world](https://en.wikipedia.org/wiki/Date_and_time_notation_in_the_United_States).
+
+Finally, the U.S. is one of only three countries still using non-SI systems of measure, along with Myanmar and Liberia.  [Myanmar, for its part, is moving toward SI](https://web.archive.org/web/20150324092305/http://elevenmyanmar.com/index.php?option=com_content&view=article&id=3684:myanmar-to-adopt-metric-system&catid=44:national&Itemid=384).
 
 ### i18n
 
