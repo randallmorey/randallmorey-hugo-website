@@ -27,33 +27,23 @@ These data hint at another important factor of i18n.  Culture affects the ways w
 
 Language is only one component of internationalization.  Concerns like date & time formatting, numbers, and systems of measure vary by region or individual preference.  I18n addresses these challenges too.  Let's explore some cultural differences.
 
-The modern Hindu-Arabic number system is essentially the only system 
+### Numbers
+
+The modern Hindu-Arabic number system is used around the world.
 
 Number formatting can differ dramatically by locale.  Delimiters and decimals are variously dots `.`, commas `,`, or spaces ` `.  Some locales may prefer non-Consider these examples of the number 
 
-[Times are typically written in 24 hours almost everywhere](https://en.wikipedia.org/wiki/24-hour_clock), with regional differences in spoken time.  In the U.K. and Brazil, time is _spoken in 12 hours_, but written in 24 hours.  The United States is perhaps the most idiosyncratic here, [retaining the use of 12-hour time, even in writing](https://en.wikipedia.org/wiki/12-hour_clock).  Only a handful of other countries still use 12-hour time in writing.
+### Dates & Times
+
+[Times are typically written in 24 hours almost everywhere](https://en.wikipedia.org/wiki/24-hour_clock), with regional differences in spoken time.  In the U.K. and Brazil, time is _spoken in 12 hours_, but written in 24 hours.  The United States is idiosyncratic here, [retaining the use of 12-hour time, even in writing](https://en.wikipedia.org/wiki/12-hour_clock).  Only a handful of other countries still use 12-hour time in writing.
 
 Most extant cultures write dates in logical order of significance, with regional differences in endianness.  [In all-numeric dates and times these forms are unambiguous almost everywhere](https://en.wikipedia.org/wiki/Date_format_by_country).  [The U.S. uses an arbitrary notation that so defies logic the country is almost entirely alone in the world](https://en.wikipedia.org/wiki/Date_and_time_notation_in_the_United_States).
 
-Finally, the U.S. is one of only three countries still using non-SI systems of measure, along with Myanmar and Liberia.  [Myanmar, for its part, is moving toward SI](https://web.archive.org/web/20150324092305/http://elevenmyanmar.com/index.php?option=com_content&view=article&id=3684:myanmar-to-adopt-metric-system&catid=44:national&Itemid=384).
+### Systems of Measure
 
-### i18n
+When it comes to systems of measure, the world has standardized on one true system.  SI is used officially in all countries except three:  Myanmar, Liberia, and the United States.  [Myanmar, for its part, is moving toward SI](https://web.archive.org/web/20150324092305/http://elevenmyanmar.com/index.php?option=com_content&view=article&id=3684:myanmar-to-adopt-metric-system&catid=44:national&Itemid=384).
 
-Let's clarify some basic terminology.  [Internationalization](https://en.wikipedia.org/wiki/Internationalization_and_localization) is the process of adding support to a product for multiple locales (languages and regions), such that it can be translated without additional engineering effort.
-
-### L10n
-
-The choice to **localize** is ultimately a business decision.  The choice to **internationalize** is an engineering decision, which may be justified even if only one locale is supported.
-
-## It Takes a Team
-
-It's a process that takes a team.  Business decision.  Human translators are better.  Engineers can enable localization to happen.  But they can also be the prime-movers...
-
-## Static Content Management
-
-Building with i18n in mind benefits engineering too:  static content management.  Separate content from templates and functional code.  DRY.  Consistency.  Yay.
-
-## ECMAScript Internationalization API
+## Internationalization API
 
 ECMAScript quietly introduced the [internationalization API](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl "Intl API") back in December 2012.  Today, [all modern browsers support ](https://caniuse.com/#feat=internationalization "Intl API browser support")`[Intl](https://caniuse.com/#feat=internationalization "Intl API browser support")`.  [Even Node.js supports internationalization](https://nodejs.org/docs/latest-v11.x/api/intl.html "Node.js Internationalization").  The `Intl` API is fit for use in all new projects.
 
