@@ -29,7 +29,7 @@ Language is only one component of internationalization.  Concerns like date & ti
 
 ### Numbers
 
-[This Hindu-Arabic number system is universal](https://www.britannica.com/topic/Hindu-Arabic-numerals).
+[Our modern number system, including zero ](http://www.ams.org/publicoutreach/feature-column/fcarc-india-zero)`[0](http://www.ams.org/publicoutreach/feature-column/fcarc-india-zero)`[, first appeared definitively around 876 AD at a temple in Gwalior, India](http://www.ams.org/publicoutreach/feature-column/fcarc-india-zero).  The same system without a concept of zero appeared about in India a millennia before, around the the turn of the epoch.
 
 While universal, two conspicuous details vary greatly by locale:  numerals and formatting.
 
