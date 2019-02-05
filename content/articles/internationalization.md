@@ -61,7 +61,7 @@ The **world is standardized on SI**.  It is used officially in all countries exc
 
 The United States' idiosyncrasies taken together betray a culture of stubborn isolationism.  It's a problem that, for the foreseeable future, can only be overcome by individual choice.
 
-...funny image of planet earth and US on the moon...
+![](/uploads/cultural-map-solar-neighborhood.svg)
 
 ## Internationalization API
 
