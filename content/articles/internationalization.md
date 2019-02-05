@@ -29,7 +29,7 @@ Language is only one component of internationalization.  Concerns like date & ti
 
 ### Numbers
 
-[Our modern number system, including zero ](http://www.ams.org/publicoutreach/feature-column/fcarc-india-zero)`[0](http://www.ams.org/publicoutreach/feature-column/fcarc-india-zero)`[, first appeared definitively around 876 AD at a temple in Gwalior, India](http://www.ams.org/publicoutreach/feature-column/fcarc-india-zero).  The same system without a concept of zero appeared about in India a millennia before, around the the turn of the epoch.
+[Our modern number system, including zero ](http://www.ams.org/publicoutreach/feature-column/fcarc-india-zero)`[0](http://www.ams.org/publicoutreach/feature-column/fcarc-india-zero)`[, first appeared definitively around 876 AD at a temple in Gwalior, India](http://www.ams.org/publicoutreach/feature-column/fcarc-india-zero).  The same system without a concept of zero appeared in India almost a millennium earlier, around the turn of the epoch.  Properly known as the [Hindu-Arabic system](https://www.britannica.com/science/numeral#ref797079), it proved so successful that we now use it across all cultures, everywhere.  This indelible piece of cultural heritage is remarkable not only surviving millennia unchanged, but for enabling modern civilization as we know it.
 
 While universal, two conspicuous details vary greatly by locale:  numerals and formatting.
 
