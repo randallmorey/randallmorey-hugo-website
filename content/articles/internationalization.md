@@ -65,7 +65,7 @@ The United States' idiosyncrasies taken together betray a culture of stubborn is
   <img alt="The United States is culturally isolated from the world." src="/uploads/cultural-map-solar-neighborhood.svg" />
 <figcaption>
   <blockquote>
-    <p>Cultural Map of the Solar Neighborhood.</p>
+    <p>Cultural Map of the Solar Neighborhood (Simplified)</p>
     <small>
       Composition by Randall Morey.
       <small>
