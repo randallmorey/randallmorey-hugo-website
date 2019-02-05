@@ -25,7 +25,7 @@ An MVP of our number system first appeared in India around the turn of the epoch
 
 #### Numerals
 
-While the Hindu-Arabic system is universal, two conspicuous details vary by locale:  numerals and formatting.  [The numerals used today with Latin scripts first appear in Europe, largely tracking the rise of early modernity](https://en.wikipedia.org/wiki/Arabic_numerals#Adoption_in_Europe).  Simpler, more geometric forms evolve to match an already refined Latin script (incidentally, [Latin numerals](https://en.wikipedia.org/wiki/Latin_numerals) refers to something else).  But several traditional styles of numerals are still in use, often side-by-side with Western numerals.  It's worth emphasizing that these numerals are only superficially different, are 1:1 equivalent, and all are used with the Hindu-Arabic number system.
+While the Hindu-Arabic system is universal, two conspicuous details vary by locale:  numerals and formatting.  [The numerals used today with Latin scripts first appear in Europe, largely tracking the rise of early modernity](https://en.wikipedia.org/wiki/Arabic_numerals#Adoption_in_Europe).  Simpler, more geometric forms evolve to match an already refined Latin script (incidentally, "[Latin numerals](https://en.wikipedia.org/wiki/Latin_numerals)" refers to something else).  But several traditional styles of numerals are still in use, often side-by-side with Western numerals.  It's worth emphasizing that these numerals are only superficially different, are 1:1 equivalent, and all are used with the Hindu-Arabic number system.
 
 <dl>
 <dt>Western</dt>
