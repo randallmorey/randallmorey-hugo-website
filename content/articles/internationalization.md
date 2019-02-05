@@ -1,7 +1,7 @@
 ---
 cover_art: true
 cover_art_bg_color: red
-cover_art_svg: ''
+cover_art_svg: cultural-map-solar-neighborhood
 date: 2019-01-25 05:00:00 +0000
 lead: TL;DR / inclusivity introduction
 reverse_header: true
