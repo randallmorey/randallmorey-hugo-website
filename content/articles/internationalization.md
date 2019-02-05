@@ -23,8 +23,6 @@ What about our peers in the United States?  It's tempting to imagine that multip
 
 These data hint at another important factor of i18n.  Culture affects the ways we write and communicate information independently of language.  And not everyone--more accurately, _almost no one_--uses American systems of notation.
 
-## Culture
-
 Language is only one component of internationalization.  Concerns like date & time formatting, numbers, and systems of measure vary by region or individual preference.  I18n addresses these challenges too.  Let's explore some cultural differences.
 
 ### Numbers
