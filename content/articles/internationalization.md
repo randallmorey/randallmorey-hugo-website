@@ -40,7 +40,8 @@ An MVP of our number system first appeared in India around the turn of the epoch
 <dt>Thai</dt>
 <dd>๑๒๓๔๕๖๗๘๙๐<dd>
 </dl>
-... Add a list or table comparing numeral styles...
+
+
 
 #### Number Formatting
 
