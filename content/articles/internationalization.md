@@ -38,7 +38,7 @@ While the Hindu-Arabic system is universal, two conspicuous details vary by loca
   <dd>१२३४५६७८९०</dd>
   
   <dt>Thai</dt>
-  <dd๑๒๓๔๕๖๗๘๙๐<dd>
+  <dd>๑๒๓๔๕๖๗๘๙๐<dd>
 </dl>
 ... Add a list or table comparing numeral styles...
 
