@@ -43,13 +43,15 @@ An MVP of our number system first appeared in India around the turn of the epoch
 
 #### Number Formatting
 
-Number formatting can differ dramatically by locale.  Delimiters and decimals are variously dots `.`, commas `,`, or spaces .  Some locales may prefer non-Consider these examples of the number
+Number formatting differs by locale.  Delimiters and decimals are variously dots `.`, commas `,`, or spaces  depending.  The rules of grouping may differ too.  While most locales prefer grouping large numbers by 3 digits, India sometimes groups by 2 digits (after the first 3).
+
+... number formats example...
 
 ### Dates & Times
 
-[Times are typically written in 24 hours almost everywhere](https://en.wikipedia.org/wiki/24-hour_clock), with regional differences in spoken time.  In the U.K. and Brazil, time is _spoken in 12 hours_, but written in 24 hours.  The United States is idiosyncratic here, [retaining the use of 12-hour time, even in writing](https://en.wikipedia.org/wiki/12-hour_clock).  Only a handful of other countries still use 12-hour time in writing.
+[Times are written in 24 hours almost everywhere](https://en.wikipedia.org/wiki/24-hour_clock), with regional differences in spoken time.  In the U.K. and Brazil, for example, time is _spoken in 12 hours_, but written in 24 hours.  The United States is idiosyncratic here, [retaining the use of 12-hour time, even in writing](https://en.wikipedia.org/wiki/12-hour_clock).  Only a handful of other countries still use 12-hour time in writing.
 
-Most extant cultures write dates in logical order of significance, with regional differences in endianness.  [In all-numeric dates and times these forms are unambiguous almost everywhere](https://en.wikipedia.org/wiki/Date_format_by_country).  [The U.S. uses an arbitrary notation that so defies logic the country is almost entirely alone in the world](https://en.wikipedia.org/wiki/Date_and_time_notation_in_the_United_States).
+Most extant cultures write dates in order of significance, with regional differences in endianness.  [All-numeric dates and times are unambiguous essentially everywhere](https://en.wikipedia.org/wiki/Date_format_by_country).  As if from another planet, [the U.S. uses an arbitrary all-numeric date ordering that so defies logic, it is mostly alone in the world](https://en.wikipedia.org/wiki/Date_and_time_notation_in_the_United_States).
 
 ### Systems of Measure
 
