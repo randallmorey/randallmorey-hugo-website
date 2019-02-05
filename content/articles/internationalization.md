@@ -23,10 +23,14 @@ These data hint at another important consideration of i18n.  **Culture affects t
 
 An MVP of our number system first appeared in India around the turn of the epoch.  It lacked one critical feature:  a concept of zero (0).  [A fully modern system including zero appeared definitively almost a millennium later, around 876 AD at a temple in Gwalior, India](http://www.ams.org/publicoutreach/feature-column/fcarc-india-zero).  Properly known as the [Hindu-Arabic system](https://www.britannica.com/science/numeral#ref797079), this indelible piece of cultural heritage is remarkable not only for surviving millennia, but for enabling modern civilization as we know it.  It is now universal, used everywhere across all cultures.
 
-While the Hindu-Arabic system is universal, two conspicuous details vary by locale:  numerals and formatting.  [The numerals used today with Latin scripts first appear in Europe, largely tracking the rise of early modernity](https://en.wikipedia.org/wiki/Arabic_numerals#Adoption_in_Europe) and are recognizable even today.  Simpler, more geometric forms evolve to match an already refined Latin script.  But several traditional styles of numerals are still in use, often side-by-side with Western numerals.
+While the Hindu-Arabic system is universal, two conspicuous details vary by locale:  numerals and formatting.  [The numerals used today with Latin scripts first appear in Europe, largely tracking the rise of early modernity](https://en.wikipedia.org/wiki/Arabic_numerals#Adoption_in_Europe) and are recognizable even today.  Simpler, more geometric forms evolve to match an already refined Latin script (incidentally, [Latin numerals](https://en.wikipedia.org/wiki/Latin_numerals) refers to a different system).  But several traditional styles of numerals are still in use, often side-by-side with Western numerals.
 
 #### Numerals
 
+<dl>
+  <dt>Western</dt>
+  <dd>1234567890</dd>
+</dl>
 ... Add a list or table comparing numeral styles...
 
 #### Number Formatting
