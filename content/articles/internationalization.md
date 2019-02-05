@@ -27,9 +27,9 @@ Language is only one component of internationalization.  Concerns like date & ti
 
 ### Numbers
 
-[Our modern number system, including zero ](http://www.ams.org/publicoutreach/feature-column/fcarc-india-zero)`[0](http://www.ams.org/publicoutreach/feature-column/fcarc-india-zero)`[, first appeared definitively around 876 AD at a temple in Gwalior, India](http://www.ams.org/publicoutreach/feature-column/fcarc-india-zero).  The same system without a concept of zero appeared in India almost a millennium earlier, around the turn of the epoch.  Properly known as the [Hindu-Arabic system](https://www.britannica.com/science/numeral#ref797079), this indelible piece of cultural heritage is remarkable not only for surviving millennia unchanged, but for enabling modern civilization as we know it.  It is now used across all cultures, everywhere.
+[Our modern number system including zero (`0`) first appeared definitively around 876 AD at a temple in Gwalior, India](http://www.ams.org/publicoutreach/feature-column/fcarc-india-zero).  The same system without a concept of zero appeared in India almost a millennium earlier, around the turn of the epoch.  Properly known as the [Hindu-Arabic system](https://www.britannica.com/science/numeral#ref797079), this indelible piece of cultural heritage is remarkable not only for surviving millennia unchanged, but for enabling modern civilization as we know it.  It is now used across all cultures, everywhere.
 
-While universal, two conspicuous details vary greatly by locale:  numerals and formatting.
+While the Hindu-Arabic system is universal, two conspicuous details vary greatly by locale:  numerals and formatting.
 
 #### Numerals
 
@@ -37,7 +37,7 @@ numerals!
 
 #### Number Formatting
 
-Number formatting can differ dramatically by locale.  Delimiters and decimals are variously dots `.`, commas `,`, or spaces ` `.  Some locales may prefer non-Consider these examples of the number 
+Number formatting can differ dramatically by locale.  Delimiters and decimals are variously dots `.`, commas `,`, or spaces ` `.  Some locales may prefer non-Consider these examples of the number
 
 ### Dates & Times
 
