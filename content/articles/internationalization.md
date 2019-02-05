@@ -31,11 +31,9 @@ Language is only one component of internationalization.  Concerns like date & ti
 
 While the Hindu-Arabic system is universal, two conspicuous details vary greatly by locale:  numerals and formatting.  [The numerals used today with Latin scripts first appear in Europe, largely during the rise of early modernity](https://en.wikipedia.org/wiki/Arabic_numerals#Adoption_in_Europe), as an evolution of earlier styles.  They gradually become simpler and more geometric out of necessity, thanks to mechanical typography.  But several traditional styles of numerals are still in use, often side-by-side with modern Western numerals.
 
-... Add a list or table comparing numeral styles...
-
 #### Numerals
 
-numerals!
+... Add a list or table comparing numeral styles...
 
 #### Number Formatting
 
