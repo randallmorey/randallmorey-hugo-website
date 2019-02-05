@@ -62,7 +62,7 @@ The **world is standardized on SI**.  It is used officially in all countries exc
 The United States' idiosyncrasies taken together betray a culture of stubborn isolationism.  It's a problem that, for the foreseeable future, can only be overcome by individual choice.
 
 <figure>
-  <img alt="The United States is culturally isolated from the world." src="/static/uploads/cultural-map-solar-neighborhood.svg" />
+  <img alt="The United States is culturally isolated from the world." src="/uploads/cultural-map-solar-neighborhood.svg" />
 <figcaption>
   <blockquote>
     <p>Cultural Map of the Solar Neighborhood.</p>
