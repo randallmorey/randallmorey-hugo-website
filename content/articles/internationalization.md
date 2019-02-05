@@ -3,11 +3,7 @@ cover_art: true
 cover_art_bg_color: red
 cover_art_svg: ''
 date: 2019-01-25 05:00:00 +0000
-lead: 'Internationalization benefits all stakeholders through greater language availability,
-  broader market reach, and separation of content from code.  The true winners?  Happier
-  users, and more of them.  It''s one more way we can build a more inclusive&nbsp;web.
-
-'
+lead: TL;DR / inclusivity introduction
 reverse_header: true
 title: Internationalization
 draft: true
