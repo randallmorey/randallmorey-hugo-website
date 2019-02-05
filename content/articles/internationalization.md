@@ -9,7 +9,7 @@ title: Internationalization
 draft: true
 
 ---
-For better or worse, [English is the world's _lingua franca_](https://en.wikipedia.org/wiki/English_as_a_lingua_franca), at more than a billion users.  Though by native-speaker population, [**Chinese** is more widely spoken](https://en.wikipedia.org/wiki/List_of_languages_by_number_of_native_speakers "List of languages by native speakers"), followed by **Spanish**, **English**, **Hindi**, **Arabic**, and **Portuguese**.  The United States shares the world's top-three (by total speakers, in reverse order): [English is the most widely-spoken language](https://en.wikipedia.org/wiki/Languages_of_the_United_States), followed by Spanish and Chinese.
+For better or worse, [English is the world's _lingua franca_](https://en.wikipedia.org/wiki/English_as_a_lingua_franca), at more than a billion users.  Though [**Chinese** is more widely spoken](https://en.wikipedia.org/wiki/List_of_languages_by_number_of_native_speakers "List of languages by native speakers") by native-speaker population, followed by **Spanish**, **English**, **Hindi**, **Arabic**, and **Portuguese**.  The United States shares the world's top-three (by total speakers, in reverse order): [English is the most widely-spoken language](https://en.wikipedia.org/wiki/Languages_of_the_United_States), followed by Spanish and Chinese.
 
 <!--more-->
 
