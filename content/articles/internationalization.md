@@ -57,9 +57,9 @@ Most extant cultures write dates in order of significance, with regional differe
 
 ### Systems of Measure
 
-The **world is standardized on SI**.  It is used officially in all countries except three:  Myanmar, Liberia, and the United States.  [Myanmar and Liberia have made progress toward metrication in recent years](https://en.wikipedia.org/wiki/Metrication).  **Metric is probably safe to use everywhere, except for an American audience**.  While economics and history are often cited as the reason for not adopting SI in the United States, I don't buy it.  These haven't stopped [the rest of the world, with a combined GDP larger than the U.S.](https://www.visualcapitalist.com/80-trillion-world-economy-one-chart/)  
+The **world is standardized on SI**.  It is used officially in all countries except three:  Myanmar, Liberia, and the United States.  [Myanmar and Liberia have made progress toward metrication in recent years](https://en.wikipedia.org/wiki/Metrication).  **Metric is probably safe to use everywhere, except for an American audience**.  While economics and history are often cited as the reason for not adopting SI in the United States, I don't buy it.  These haven't stopped [_the entire rest of the world_, with a combined GDP larger than the U.S.](https://www.visualcapitalist.com/80-trillion-world-economy-one-chart/)
 
-Rather, staunch American isolationism is a better explanation.  The United States is both physically and culturally separated from the world, 
+The United States' idiosyncrasies taken together betray a culture of stubborn isolationism.  It's a problem that, for the foreseeable future, can only be overcome by individual choice.
 
 ...funny image of planet earth and US on the moon...
 
