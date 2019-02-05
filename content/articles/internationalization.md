@@ -43,25 +43,29 @@ An MVP of our number system first appeared in India around the turn of the epoch
 
 #### Number Formatting
 
-Number formatting differs by locale.  Delimiters and decimals are variously dots `.`, commas `,`, or spaces  depending.  The rules of grouping may differ too.  While most locales prefer grouping large numbers by 3 digits, India sometimes groups by 2 digits (after the first 3).
+**Number formatting differs by locale**.  Delimiters and decimals are variously dots `.`, commas `,`, or spaces  .  **The rules of grouping may differ too**.  While most locales prefer grouping large numbers by 3 digits, **India sometimes groups by 2 digits (after the first 3)**.
 
 ... number formats example...
 
 ### Dates & Times
 
-[Times are written in 24 hours almost everywhere](https://en.wikipedia.org/wiki/24-hour_clock), with regional differences in spoken time.  In the U.K. and Brazil, for example, time is _spoken in 12 hours_, but written in 24 hours.  The United States is idiosyncratic here, [retaining the use of 12-hour time, even in writing](https://en.wikipedia.org/wiki/12-hour_clock).  Only a handful of other countries still use 12-hour time in writing.
+[**Times are written in 24 hours almost everywhere**](https://en.wikipedia.org/wiki/24-hour_clock), with regional differences in spoken time.  In many places time is _spoken in 12 hours_, but written in 24 hours.  **The United States** [**retains the use of 12-hour time, even in writing**](https://en.wikipedia.org/wiki/12-hour_clock).  Only a handful of other countries still use 12-hour time in writing.
 
-Most extant cultures write dates in order of significance, with regional differences in endianness.  [All-numeric dates and times are unambiguous essentially everywhere](https://en.wikipedia.org/wiki/Date_format_by_country).  As if from another planet, [the U.S. uses an arbitrary all-numeric date ordering that so defies logic, it is mostly alone in the world](https://en.wikipedia.org/wiki/Date_and_time_notation_in_the_United_States).
+Most extant cultures write dates in order of significance, with regional differences in endianness.  [Essentially, all-numeric dates and times are unambiguous everywhere](https://en.wikipedia.org/wiki/Date_format_by_country) (except of course the United States).  [**The U.S. uses an arbitrary all-numeric date ordering that so defies logic, it is mostly alone in the world**](https://en.wikipedia.org/wiki/Date_and_time_notation_in_the_United_States).
+
+... examples of date and time formats ...
 
 ### Systems of Measure
 
-When it comes to systems of measure, the world has standardized on one true system.  SI is used officially in all countries except three:  Myanmar, Liberia, and the United States.  [Myanmar, for its part, is moving toward SI](https://web.archive.org/web/20150324092305/http://elevenmyanmar.com/index.php?option=com_content&view=article&id=3684:myanmar-to-adopt-metric-system&catid=44:national&Itemid=384).
+The **world is standardized on SI**.  It is used officially in all countries except three:  Myanmar, Liberia, and the United States.  [Myanmar and Liberia have made progress toward metrication in recent years](https://en.wikipedia.org/wiki/Metrication).  **Metric is probably safe to use everywhere, except for an American audience**.  While economics and history are often cited as the reason for not adopting SI in the United States, I don't buy it.  These factors haven't stopped [the rest of the world, with a combined GDP larger than the U.S.](https://www.visualcapitalist.com/80-trillion-world-economy-one-chart/)  
+
+Rather, staunch American isolationism is a better explanation.  The United States is both physically and culturally separated from the world, 
 
 ...funny image of planet earth and US on the moon...
 
 ## Internationalization API
 
-ECMAScript quietly introduced the [internationalization API](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl "Intl API") back in December 2012.  Today, [all modern browsers support ](https://caniuse.com/#feat=internationalization "Intl API browser support")`[Intl](https://caniuse.com/#feat=internationalization "Intl API browser support")`.  [Even Node.js supports internationalization](https://nodejs.org/docs/latest-v11.x/api/intl.html "Node.js Internationalization").  The `Intl` API is fit for use in all new projects.
+ECMAScript quietly introduced the [internationalization API](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl "Intl API") back in December 2012.  Today, [all modern browsers support ](https://caniuse.com/#feat=internationalization "Intl API browser support")`[Intl](https://caniuse.com/#feat=internationalization "Intl API browser support")`.  [Even Node.js supports it](https://nodejs.org/docs/latest-v11.x/api/intl.html "Node.js Internationalization").  The `Intl` API is fit for use in all new projects.
 
 The internationalization API provides key formatting services for numbers (including currencies), dates & times, and language-aware sorting.  It handles all of this _natively_.  Previously, such tasks required byte-heavy third-party libraries and their locale data files.  Though some features are not widely supported yet, such as relative times (e.g. "30s ago").  Watch for additional features to land in capable browsers soon.
 
