@@ -29,7 +29,10 @@ While the Hindu-Arabic system is universal, two conspicuous details vary by loca
 
 <dl>
   <dt>Western</dt>
-  <dd>1234567890</dd>
+  <dd>1 2 3 4 5 6 7 8 9 0</dd>
+  
+  <dt>Eastern Arabic</dt>
+  <dd>۱ ۲ ۳ ۴ ۵ ۶ ۷ ۸ ۹ ०</dd>
 </dl>
 ... Add a list or table comparing numeral styles...
 
