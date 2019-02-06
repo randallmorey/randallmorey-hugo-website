@@ -47,16 +47,16 @@ An MVP of our number system first appeared in India around the turn of the epoch
 
 <dl>
 <dt>Western</dt>
-<dd>1234567890</dd>
+<dd>1,500,000.48</dd>
 
 <dt>Eastern Arabic</dt>
-<dd>١٢٣٤٥٦٧٨٩٠</dd>
+<dd>١٬٥٠٠٬٠٠٠٫٤٨</dd>
 
 <dt>Devanagari (Indian)</dt>
-<dd>१२३४५६७८९०</dd>
+<dd>१५,००,०००.४८</dd>
 
 <dt>Thai</dt>
-<dd>๑๒๓๔๕๖๗๘๙๐<dd>
+<dd>๑,๕๐๐,๐๐๐.๔๘<dd>
 </dl>
 
 ### Dates & Times
