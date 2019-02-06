@@ -43,7 +43,7 @@ An MVP of our number system first appeared in India around the turn of the epoch
 
 #### Number Formatting
 
-**Number formatting differs by locale**.  [Decimal marks](https://en.wikipedia.org/wiki/Decimal_separator) and group delimiters are variously full stops (periods), commas, or spaces.  And while in most locales the decimal marker and group delimiter are different characters, [in places that use Eastern Arabic numerals the separators are nearly indistinguishable](https://en.wikipedia.org/wiki/Decimal_separator#Other_numeral_systems) (`٫` and `٬` are technically separate characters from a comma in Unicode but identical in appearance to one).  **The rules of grouping may differ too**.  While most locales express large numbers by groups of 3 digits, the [**Indian numbering system groups by 2 digits **](https://en.wikipedia.org/wiki/Indian_numbering_system)(but only after the first 3).
+**Number formatting differs by locale**.  [Decimal marks](https://en.wikipedia.org/wiki/Decimal_separator) and group delimiters are variously full stops (periods), commas, or spaces.  And while in most locales the decimal marker and group delimiter are different characters, [in places that use Eastern Arabic numerals the separators are nearly indistinguishable](https://en.wikipedia.org/wiki/Decimal_separator#Other_numeral_systems) (`٫` and `٬` are technically separate characters from a comma in Unicode but identical in appearance to one).  **The rules of grouping may differ too**.  While most locales express large numbers by groups of 3 digits, **the** [**Indian numbering system groups by 2 digits**](https://en.wikipedia.org/wiki/Indian_numbering_system) (but only after the first 3).
 
 <dl>
 <dt>Western</dt>
