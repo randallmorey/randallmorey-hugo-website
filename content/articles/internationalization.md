@@ -1,7 +1,6 @@
 ---
 cover_art: true
 cover_art_bg_color: red
-cover_art_svg: cultural-map-solar-neighborhood
 date: 2019-01-25 05:00:00 +0000
 lead: TL;DR / inclusivity introduction
 reverse_header: true
@@ -59,13 +58,13 @@ Most extant cultures write dates in order of significance, with regional differe
 
 The **world is standardized on SI**.  It is used officially in all countries except three:  Myanmar, Liberia, and the United States.  [Myanmar and Liberia have made progress toward metrication in recent years](https://en.wikipedia.org/wiki/Metrication).  **Metric is probably safe to use everywhere, except for an American audience**.  While economics and history are often cited as the reason for not adopting SI in the United States, I don't buy it.  These haven't stopped [_the entire rest of the world_, with a combined GDP larger than the U.S.](https://www.visualcapitalist.com/80-trillion-world-economy-one-chart/)
 
-The United States' idiosyncrasies taken together betray a culture of stubborn isolationism.  It's a problem that, for the foreseeable future, can only be overcome by individual choice.
+The United States' idiosyncrasies taken together betray a culture of stubborn isolationism.  It's a problem that, for the foreseeable future, can only be overcome by individual choice.  But I digress...
 
 <figure>
-<img alt="The United States is culturally isolated from the world." src="/uploads/cultural-map-solar-neighborhood.svg" />
+<img alt="The United States is culturally isolated from the world." src="/art/cultural-map-earth.svg" />
 <figcaption>
 <blockquote>
-<p>Cultural Map of the Solar Neighborhood (Simplified)</p>
+<p>Cultural Map of Earth (Simplified)</p>
 <small>
 Composition by Randall Morey.
 <small>
