@@ -85,9 +85,6 @@ Date and time formatting may vary subtly within a single language, depending on 
 
 <dt>English (Great Britain)</dt>
 <dd>1 January 2019, 13:30:00</dd>
-
-<dt>Thai</dt>
-<dd>๑ มกราคม ๒๕๖๒ ๑๓:๔๑:๔๔</dd>  
 </dl>
 
 ### Systems of Measure
