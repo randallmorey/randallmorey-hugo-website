@@ -17,15 +17,15 @@ Though ubiquitous, English is not always the most _preferable_ language.  [A Gal
 
 What about our STEM peers in the United States?  It's tempting to imagine that multiple languages are unnecessary for a purely technical audience.  These users are at least functional in English, right?  Not so fast.  [Within Silicon Valley, a majority of the college-educated technology workforce is foreign-born](https://qz.com/1029860/more-silicon-valley-tech-workers-were-born-outside-the-us-than-in-it/).  It's also notable that [Silicon Valley is _majority multilingual_](https://siliconvalleyindicators.org/data/people/talent-flows-diversity/foreign-language/population-share-that-speaks-a-language-at-home-other-than-exclusively-english-table/).  In 2017, more than half of its households spoke a language other than English, a greater share than California and the United States.  Even within New York City a greater share of educated tech workers were born outside of the U.S. than within.
 
-These data hint at another important consideration of i18n.  Culture affects the ways we write and communicate information independently of language.  And not everyone--more like _almost no one_--uses American systems of notation.  Concerns like date & time formatting, numbers, and systems of measure vary by region or individual preference.  Being more inclusive means being aware of and accommodating culture too.  Let's explore these cultural differences.
+These data hint at another important consideration of i18n.  Culture affects the ways we write and communicate information independently of language.  Concerns like date & time formatting, numbers, and systems of measure vary by region or individual preference.  Being more inclusive means being aware of and accommodating culture too.  Let's explore these cultural differences.
 
 ### Numbers
 
-An MVP of our number system first appeared in India around the turn of the epoch.  It lacked one critical feature:  a concept of zero (0).  [A fully modern system including zero appeared definitively almost a millennium later, around 876 AD at a temple in Gwalior, India](http://www.ams.org/publicoutreach/feature-column/fcarc-india-zero).  Properly known as the [Hindu-Arabic system](https://www.britannica.com/science/numeral#ref797079), this indelible piece of cultural heritage is remarkable not only for surviving millennia, but for enabling modern civilization as we know it.  It is now universal, used everywhere across all cultures.
+[A fully modern number system first appeared definitively at a temple in Gwalior, India around 876 AD](http://www.ams.org/publicoutreach/feature-column/fcarc-india-zero).  It is the same system we use today:  a positional base-10 system with a built-in concept of zero (0).  Individually the innovations were nothing new.  But their combination proved explosive.  Properly known as the [Hindu-Arabic system](https://www.britannica.com/science/numeral#ref797079), this indelible piece of cultural heritage is remarkable not only for surviving millennia, but for enabling modern civilization as we know it.  It is now universal, used everywhere across all cultures.
 
-#### Numerals
+While the Hindu-Arabic system is universal, two conspicuous details vary by locale:  numerals and formatting.  [The numerals used with Latin scripts first appeared in Europe, tracking the rise of modernity](https://en.wikipedia.org/wiki/Arabic_numerals#Adoption_in_Europe) (incidentally, "[Latin numerals](https://en.wikipedia.org/wiki/Latin_numerals)" refers to something different).  Several traditional styles of numerals are still in use, often side-by-side with Western numerals.  It's worth emphasizing that _they are only superficially different_:  the styles are equivalent in usage and meaning and all are used with the Hindu-Arabic number system.
 
-While the Hindu-Arabic system is universal, two conspicuous details vary by locale:  numerals and formatting.  [The numerals used with Latin scripts first appear in Europe, tracking the rise of modernity](https://en.wikipedia.org/wiki/Arabic_numerals#Adoption_in_Europe).  Simpler, more geometric forms evolve to match an already refined Latin script (incidentally, "[Latin numerals](https://en.wikipedia.org/wiki/Latin_numerals)" refers to something else; common numerals are literally referred to as "the numerals used with Latin Scripts", or sometimes "Western Arabic").  But several traditional styles of numerals are still in use, often side-by-side with Western numerals.  It's worth emphasizing that they are only superficially different:  the styles are equivalent in usage and meaning and all are used with the Hindu-Arabic number system.
+<figure>
 
 <dl>
 <dt>Western</dt>
@@ -34,16 +34,23 @@ While the Hindu-Arabic system is universal, two conspicuous details vary by loca
 <dt>Eastern Arabic</dt>
 <dd>١٢٣٤٥٦٧٨٩٠</dd>
 
-<dt>Devanagari (Indian)</dt>
+<dt>Devanagari</dt>
 <dd>१२३४५६७८९०</dd>
 
 <dt>Thai</dt>
 <dd>๑๒๓๔๕๖๗๘๙๐<dd>
 </dl>
 
-#### Number Formatting
+<figcaption>
+<blockquote>
+<p>Examples of numerals used around the world.</p>
+</blockquote>
+</figcaption>
+</figure>
 
-Number formatting differs by locale.  [Decimal marks](https://en.wikipedia.org/wiki/Decimal_separator) and group delimiters are variously full stops (periods), commas, or spaces.  And while in most locales the decimal marker and group delimiter are different characters, [in places that use Eastern Arabic numerals the separators are nearly indistinguishable](https://en.wikipedia.org/wiki/Decimal_separator#Other_numeral_systems) (`٫` and `٬` are technically separate characters from a comma in Unicode but identical in appearance to one).  The rules of grouping may differ too.  While most locales express large numbers by groups of 3 digits, the [Indian numbering system groups by 2 digits](https://en.wikipedia.org/wiki/Indian_numbering_system) (but only after the first 3).
+Number formatting differs by locale.  [Decimal markers](https://en.wikipedia.org/wiki/Decimal_separator) and group delimiters are variously full stops (periods), commas, apostrophes, or spaces.  And while in most locales the decimal marker and group delimiter are different characters, [in places that use Eastern Arabic numerals the separators are nearly indistinguishable](https://en.wikipedia.org/wiki/Decimal_separator#Other_numeral_systems) (**٬** and **٫** are technically separate characters from a comma in Unicode but identical in appearance to one).  The rules of grouping may differ too.  While most locales express large numbers by groups of 3 digits, the [Indian numbering system groups by 2 digits](https://en.wikipedia.org/wiki/Indian_numbering_system) (but only after the first 3).
+
+<figure>
 
 <dl>
 <dt>Western</dt>
@@ -52,12 +59,19 @@ Number formatting differs by locale.  [Decimal marks](https://en.wikipedia.org/w
 <dt>Eastern Arabic</dt>
 <dd>١٬٥٠٠٬٠٠٠٫٤٨</dd>
 
-<dt>Devanagari (Indian)</dt>
+<dt>Indian</dt>
 <dd>१५,००,०००.४८</dd>
 
 <dt>Thai</dt>
 <dd>๑,๕๐๐,๐๐๐.๔๘<dd>
 </dl>
+
+<figcaption>
+<blockquote>
+<p>Examples of number formatting differences.</p>
+</blockquote>
+</figcaption>
+</figure>
 
 ### Dates & Times
 
@@ -65,7 +79,7 @@ Number formatting differs by locale.  [Decimal marks](https://en.wikipedia.org/w
 
 Most extant cultures write dates in order of significance, with regional differences in endianness.  [Essentially, all-numeric dates and times are unambiguous everywhere](https://en.wikipedia.org/wiki/Date_format_by_country) (except of course the United States).  [The U.S. uses an arbitrary all-numeric date ordering that so defies logic, it is mostly alone in the world](https://en.wikipedia.org/wiki/Date_and_time_notation_in_the_United_States).
 
-Date and time formatting can be dramatically different among locles, even within the same language.  Both long-form and all-numeric dates vary.
+<figure>
 
 <dl>
 <dt>French (Canada)</dt>
@@ -87,17 +101,22 @@ Date and time formatting can be dramatically different among locles, even within
 <dd>1 January 2019, 13:30:00</dd>
 </dl>
 
-### Systems of Measure
-
-The world is standardized on SI.  It is used officially in all countries except three:  Myanmar, Liberia, and the United States.  [Myanmar and Liberia have made progress toward metrication in recent years](https://en.wikipedia.org/wiki/Metrication).  Metric is probably safe to use everywhere, except for an American audience.  While economics and history are often cited as the reason for not adopting SI in the United States, I don't buy it.  These haven't stopped [_the entire rest of the world_, with a combined GDP larger than the U.S.](https://www.visualcapitalist.com/80-trillion-world-economy-one-chart/)
-
-The United States' idiosyncrasies taken together betray a culture of stubborn isolationism.  It's a problem that, for the foreseeable future, can only be overcome by individual choice.  But I digress...
-
-<figure>
-<img alt="The United States is culturally isolated from the world." src="/art/cultural-map-earth.svg" />
 <figcaption>
 <blockquote>
-<p>Cultural Map of Earth (Simplified)</p>
+<p>Long-form date formatting can differ among locales, even within the same language.</p>
+</blockquote>
+</figcaption>
+</figure>
+
+### Systems of Measure
+
+The world is standardized on SI.  It is used officially in all countries except three:  Myanmar, Liberia, and the United States.  [Myanmar and Liberia have made progress toward metrication in recent years](https://en.wikipedia.org/wiki/Metrication).  **Metric is safe to use everywhere**, including technical audiences in the U.S., though general audiences may not understand it.  While economics and history are often cited as the reason for not adopting SI in the United States, I don't buy it.  These reasons haven't stopped [_the entire rest of the world_, with a combined GDP larger than the U.S.](https://www.visualcapitalist.com/80-trillion-world-economy-one-chart/)  But I digress.
+
+<figure>
+<img alt="The United States is culturally isolated from the world." src="/art/map-measurement-systems-earth.svg" />
+<figcaption>
+<blockquote>
+<p>Map of the Measurement Systems of Earth</p>
 <small>
 Composition by Randall Morey.
 <small>
