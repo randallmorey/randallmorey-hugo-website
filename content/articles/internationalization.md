@@ -5,6 +5,7 @@ date: 2019-01-25 05:00:00 +0000
 lead: TL;DR / inclusivity introduction
 reverse_header: true
 title: Internationalization
+cover_art_svg: ''
 draft: true
 
 ---
@@ -42,7 +43,7 @@ An MVP of our number system first appeared in India around the turn of the epoch
 
 #### Number Formatting
 
-**Number formatting differs by locale**.  Delimiters and decimals are variously dots `.`, commas `,`, or spaces  .  **The rules of grouping may differ too**.  While most locales prefer grouping large numbers by 3 digits, **India sometimes groups by 2 digits (after the first 3)**.
+**Number formatting differs by locale**.  [Decimal marks](https://en.wikipedia.org/wiki/Decimal_separator) and group delimiters are variously dots, commas, or spaces.  **The rules of grouping may differ too**.  While most locales prefer grouping large numbers by 3 digits, the [**Indian numbering system groups by 2 digits**](https://en.wikipedia.org/wiki/Indian_numbering_system) **(but only after the first 3)**.
 
 ... number formats example...
 
