@@ -65,11 +65,15 @@ An MVP of our number system first appeared in India around the turn of the epoch
 
 Most extant cultures write dates in order of significance, with regional differences in endianness.  [Essentially, all-numeric dates and times are unambiguous everywhere](https://en.wikipedia.org/wiki/Date_format_by_country) (except of course the United States).  [**The U.S. uses an arbitrary all-numeric date ordering that so defies logic, it is mostly alone in the world**](https://en.wikipedia.org/wiki/Date_and_time_notation_in_the_United_States).
 
-#### Long-Format Dates & Times
-
-Date and time formatting may vary subtly within a single language, depending on locale.  In some cases, differences are more drastic.
+Date and time formatting may vary subtly within a single language, depending on locale.  In some cases, differences are more drastic.  Both long-form and all-numeric dates may vary.
 
 <dl>
+<dt>French (Canada)</dt>
+<dd>1 janvier 2019 13 h 30 min 00 s</dd>
+
+<dt>French (France)</dt>
+<dd>1 janvier 2019 à 13:48:15</dd>
+
 <dt>Portuguese (Brazil)</dt>
 <dd>1 de janeiro de 2019 13:30:00</dd>
 
@@ -81,7 +85,7 @@ Date and time formatting may vary subtly within a single language, depending on 
 
 <dt>English (Great Britain)</dt>
 <dd>1 January 2019, 13:30:00</dd>
- 
+
 <dt>Thai</dt>
 <dd>๑ มกราคม ๒๕๖๒ ๑๓:๔๑:๔๔</dd>  
 </dl>
