@@ -72,7 +72,7 @@ Date and time formatting may vary subtly within a single language, depending on 
 <dd>1 janvier 2019 13 h 30 min 00 s</dd>
 
 <dt>French (France)</dt>
-<dd>1 janvier 2019 à 13:48:15</dd>
+<dd>1 janvier 2019 à 13:30:00</dd>
 
 <dt>Portuguese (Brazil)</dt>
 <dd>1 de janeiro de 2019 13:30:00</dd>
