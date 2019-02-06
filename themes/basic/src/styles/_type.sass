@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Merriweather:400,700,italic|Raleway:400,800")
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700,800")
 
 html
   font-size: $base-font-size
@@ -53,6 +53,8 @@ blockquote
 
 a
   color: $link-color
+  text-decoration: none
+  border-bottom: 1px solid
   &:visited
     color: $link-visited-color
 
@@ -60,7 +62,7 @@ em, i
   font-style: italic
 
 strong, b
-  font-weight: 700
+  font-weight: $base-bold-font-weight
 
 ul, ol
   +type-scale(2)
@@ -139,6 +141,7 @@ kbd
   a
     &, &:visited
       color: $base-font-color
+      border: 0
   &::after
     content: " "
     position: absolute
