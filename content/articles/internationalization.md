@@ -9,13 +9,13 @@ cover_art_svg: ''
 draft: true
 
 ---
-For better or worse, [English is the world's _lingua franca_](https://en.wikipedia.org/wiki/English_as_a_lingua_franca), at more than a billion users.  Though [Chinese is more widely spoken](https://en.wikipedia.org/wiki/List_of_languages_by_number_of_native_speakers "List of languages by native speakers") by native-speaker population, followed by Spanish, English, Hindi, Arabic, and Portuguese.  The United States shares the world's top-three (by total speakers, in reverse order): [English is the most widely-spoken language](https://en.wikipedia.org/wiki/Languages_of_the_United_States), followed by Spanish and Chinese.
+For better or worse, [English is the world's _lingua franca_](https://en.wikipedia.org/wiki/English_as_a_lingua_franca), at more than a billion users.  [In the United States English is the most widely-spoken language](https://en.wikipedia.org/wiki/Languages_of_the_United_States), followed by Spanish and Chinese.  [But by global native-speaker population, English takes only third place](https://en.wikipedia.org/wiki/List_of_languages_by_number_of_native_speakers "List of languages by native speakers").  Chinese is most widely spoken overall, followed by Spanish, English, Hindi, Arabic, and Portuguese.  
 
 <!--more-->
 
-Though ubiquitous, English is not always the most _preferable_ language.  [A Gallop study for the European Commission](http://ec.europa.eu/commfrontoffice/publicopinion/flash/fl_313_en.pdf "User Language Preferences Online") found that a majority of European internet users consume content in multiple languages.  More than a third create content in multiple languages.  Among its findings is that, unsurprisingly, users prefer their native linguas.  Only about half accept English if their preferred language is unavailable.
+Though ubiquitous, English is not always the most _preferable_ language.  [A Gallop study for the European Commission](http://ec.europa.eu/commfrontoffice/publicopinion/flash/fl_313_en.pdf "User Language Preferences Online") found that a majority of European internet users consume content in multiple languages.  More than a third create content in multiple languages.  Among its findings is that, unsurprisingly, users prefer their native linguas.  Only about half accept English if their preferred language is unavailable.  It's easy to see why internationalization is such a big deal and why it has the power to improve UX.
 
-What about our STEM peers in the United States?  It's tempting to imagine that multiple languages are unnecessary for a purely technical audience.  These users are at least functional in English, right?  Not so fast.  [Within Silicon Valley, a majority of the college-educated technology workforce is foreign-born](https://qz.com/1029860/more-silicon-valley-tech-workers-were-born-outside-the-us-than-in-it/).  It's also notable that [Silicon Valley is _majority multilingual_](https://siliconvalleyindicators.org/data/people/talent-flows-diversity/foreign-language/population-share-that-speaks-a-language-at-home-other-than-exclusively-english-table/).  In 2017, more than half of its households spoke a language other than English, a greater share than California and the United States.  Even within New York City a greater share of educated tech workers were born outside of the U.S. than within.
+What about our STEM peers and the products we love?  It's tempting to imagine that multiple languages are unnecessary for a purely technical audience.  These users are at least functional in English, right?  Not so fast.  [Within Silicon Valley, a majority of the college-educated technology workforce is foreign-born](https://qz.com/1029860/more-silicon-valley-tech-workers-were-born-outside-the-us-than-in-it/).  It's also notable that [Silicon Valley is _majority multilingual_](https://siliconvalleyindicators.org/data/people/talent-flows-diversity/foreign-language/population-share-that-speaks-a-language-at-home-other-than-exclusively-english-table/).  In 2017, more than half of its households spoke a language other than English, a greater share than California and the United States.  Even within New York City a greater share of educated tech workers were born outside of the U.S. than within.
 
 These data hint at another important consideration of i18n.  Culture affects the ways we write and communicate information independently of language.  Concerns like date & time formatting, numbers, and systems of measure vary by region or individual preference.  Being more inclusive means being aware of and accommodating culture too.  Let's explore these cultural differences.
 
@@ -129,21 +129,86 @@ Arrow doodle by Alex Muravev, RU, Noun Project.
 </figcaption>
 </figure>
 
-## Forms
+## Personal Names
 
-:::Names and addresses
+The presentation of information is just the beginning.  Internationalization
+affects the _collection_ of information as well.
+[Personal names come in every conceivable shape, size, and
+character set](https://www.w3.org/International/questions/qa-personal-names).
+Conventional web forms fall short and simply don't accommodate the diversity of
+names and cultural conventions the world has to offer.  This can be a poor
+experience for users and can lead to incorrect data entry.  Fortunately,
+designers and engineers have the power to do better.
 
-## Who Does i18n & L10n?
+The problem begins with the implicit assumptions Westerners often make about
+naming conventions: people have at most 3 names, only 2 of those names really
+matter, and order is conventional (a first name is always a given name and a
+last name is always a surname).  Let's look a few examples that invalidate
+these assumptions.
 
-:::Team, decision makers, process:::
+...examples of names around the world...
 
-## Engineers Can Take a Lead
+We also make incorrect assumptions about names and gender, e.g. assuming your
+mother has a maiden name, which furthermore assumes she was married at all and
+that she changed her name upon marriage.  I will leave it to the reader to
+ponder why this is wrong.  We don't even need to consider the security
+implications of using this as a security question to see why we should stop
+making this assumption.
 
-:::Why engineers can take move forward with i18n in apps even before getting buy-in from everyone.  Set an example.  Static content management.
+How do we accommodate all possible variation in personal names?  Easy.
+Provide just one name field:  "Full Name".  And don't validate the length
+(only that it is filled), because one- or two-character names are possible.  An
+additional "What should we call you" field is also recommended, since full names
+aren't always appropriate or practical.  Let your users tell you about their
+name(s) with as few built-in assumptions as possible.
+[The W3C provides more in-depth information and recommendations for designing
+web forms](https://www.w3.org/International/questions/qa-personal-names).
+
+## Start With Engineering
+
+Improved user experience and greater inclusivity are excellent reasons to
+internationalize.  But broad team buy-in isn't necessary just to get started.
+Engineers are perfectly positioned to be prime-movers on i18n because it solves
+a novel problem: separation of static content from code.  Even if only one
+language is supported, it's worth the extra effort for development teams.
+
+The content in all of those form fields, action buttons, page titles, and
+navigations can and do fall out of sync over time.  Simple content changes are
+often an exciting game of search/replace. Arbitrary content change requests are
+a never-ending stream from customers, managers, and feature requests.  So we
+ought to make it as easy on ourselves as possible.
+
+Proactive internationalization is a great place from which to advocate to a
+broader team or organization.  Once the groundwork is in-place, additional
+localization is straightforward.  Engineers can help themselves _and_ users by
+implementing i18n today.  Once the foundation is built, who's in charge of
+translations?
+
+## It's A Process
+
+The choice to internationalize is an engineering one.  The choice to localize--
+or rather, the choice to _use_ localizations--is a business decision.  That
+requires buy-in from stakeholders, sometimes including clients.  Getting buy-in
+may depend on the cost.  What does it take to get an app translated?
+
+There are a number of approaches to content localization.  For large, complex
+projects with a lot of content, it may make sense to hire a firm.  Any number
+of companies offer this service.  For smaller well-defined projects, individual
+translators can be hired as-needed, with machine translation filling the gaps.
+
+Ask around your own team.  Chances are a number of developers you work with are
+proficient in at least one other language (native speakers are best, because of
+the importance of culture).  They may even be willing to volunteer to
+translate some strings.  Personally, nearly every team I've worked with included
+native speakers of other languages.  And native speakers of other languages are
+excellent allies to have in the pursuit of internationalization.
 
 ## Internationalization API
 
+
 ECMAScript quietly introduced the [internationalization API](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl "Intl API") back in December 2012.  Today, [all modern browsers support ](https://caniuse.com/#feat=internationalization "Intl API browser support")`[Intl](https://caniuse.com/#feat=internationalization "Intl API browser support")`.  [Even Node.js supports it](https://nodejs.org/docs/latest-v11.x/api/intl.html "Node.js Internationalization").  The `Intl` API is fit for use in all new projects.
+
+[Try it out right now on intlnow.com](http://www.intlnow.com/).
 
 The internationalization API provides key formatting services for numbers (including currencies), dates & times, and language-aware sorting.  It handles all of this _natively_.  Previously, such tasks required byte-heavy third-party libraries and their locale data files.  Though some features are not widely supported yet, such as relative times (e.g. "30s ago").  Watch for additional features to land in capable browsers soon.
 
