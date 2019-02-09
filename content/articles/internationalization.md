@@ -9,19 +9,19 @@ cover_art_svg: ''
 draft: true
 
 ---
-For better or worse, [English is the world's _lingua franca_](https://en.wikipedia.org/wiki/English_as_a_lingua_franca), at more than a billion users.  [In the United States English is the most widely-spoken language](https://en.wikipedia.org/wiki/Languages_of_the_United_States), followed by Spanish and Chinese.  [But by global native-speaker population, English takes only third place](https://en.wikipedia.org/wiki/List_of_languages_by_number_of_native_speakers "List of languages by native speakers").  Chinese is most widely spoken overall, followed by Spanish, English, Hindi, Arabic, and Portuguese.  
+[English is the world's _lingua franca_](https://en.wikipedia.org/wiki/English_as_a_lingua_franca) at more than a billion users.  [In the United States it is the most widely-spoken language](https://en.wikipedia.org/wiki/Languages_of_the_United_States), followed by Spanish and Chinese.  [But by global native-speaker population, English takes only third place](https://en.wikipedia.org/wiki/List_of_languages_by_number_of_native_speakers "List of languages by native speakers").  Chinese is most widely spoken overall, followed by Spanish, English, Hindi, Arabic, and Portuguese.  
 
 <!--more-->
 
-Though ubiquitous, English is not always the most _preferable_ language.  [A Gallop study for the European Commission](http://ec.europa.eu/commfrontoffice/publicopinion/flash/fl_313_en.pdf "User Language Preferences Online") found that a majority of European internet users consume content in multiple languages.  More than a third create content in multiple languages.  Among its findings is that, unsurprisingly, users prefer their native linguas.  Only about half accept English if their preferred language is unavailable.  It's easy to see why internationalization is such a big deal and why it has the power to improve UX.
+Though ubiquitous, English is not always the most _preferable_ language.  [A Gallup study for the European Commission](http://ec.europa.eu/commfrontoffice/publicopinion/flash/fl_313_en.pdf "User Language Preferences Online") found that a majority of European internet users consume content in multiple languages.  More than a third create content in multiple languages.  Among its findings is that, unsurprisingly, users prefer their native linguas.  Only about half accept English if their preferred language is unavailable.  It's easy to see why internationalization is such a big deal and why it has the power to improve UX.
 
-What about our STEM peers and the products we love?  It's tempting to imagine that multiple languages are unnecessary for a purely technical audience.  These users are at least functional in English, right?  Not so fast.  [Within Silicon Valley, a majority of the college-educated technology workforce is foreign-born](https://qz.com/1029860/more-silicon-valley-tech-workers-were-born-outside-the-us-than-in-it/).  It's also notable that [Silicon Valley is _majority multilingual_](https://siliconvalleyindicators.org/data/people/talent-flows-diversity/foreign-language/population-share-that-speaks-a-language-at-home-other-than-exclusively-english-table/).  In 2017, more than half of its households spoke a language other than English, a greater share than California and the United States.  Even within New York City a greater share of educated tech workers were born outside of the U.S. than within.
+What about our STEM peers and the products we love?  It's tempting to imagine that multiple languages are unnecessary for a purely technical audience.  These users are at least functional in English, right?  Not so fast.  [Within Silicon Valley, a majority of the college-educated technology workforce is foreign-born](https://qz.com/1029860/more-silicon-valley-tech-workers-were-born-outside-the-us-than-in-it/).  It's also notable that [Silicon Valley is _majority multilingual_](https://siliconvalleyindicators.org/data/people/talent-flows-diversity/foreign-language/population-share-that-speaks-a-language-at-home-other-than-exclusively-english-table/).  In 2017, more than half of its households spoke a language other than English, a greater share than California and the United States.  Even within New York City more educated tech workers were born outside of the U.S. than within.
 
 These data hint at another important consideration of i18n.  Culture affects the ways we write and communicate information independently of language.  Concerns like date & time formatting, numbers, and systems of measure vary by region or individual preference.  Being more inclusive means being aware of and accommodating culture too.  Let's explore these cultural differences.
 
 ### Numbers
 
-[A fully modern number system first appeared definitively at a temple in Gwalior, India around 876 AD](http://www.ams.org/publicoutreach/feature-column/fcarc-india-zero).  It is the same system we use today:  a positional base-10 system with a built-in concept of zero (0).  Individually the innovations were nothing new.  But their combination proved explosive.  Properly known as the [Hindu-Arabic system](https://www.britannica.com/science/numeral#ref797079), this indelible piece of cultural heritage is remarkable not only for surviving millennia, but for enabling modern civilization as we know it.  It is now universal, used everywhere across all cultures.
+[A fully modern number system first appeared definitively at a temple in Gwalior, India around 876 AD](http://www.ams.org/publicoutreach/feature-column/fcarc-india-zero).  It is the same system we use today:  a positional base-10 system with a built-in concept of zero (0).  Individually, the innovations were nothing new, but their combination proved explosive.  Properly known as the [Hindu-Arabic system](https://www.britannica.com/science/numeral#ref797079), this indelible piece of cultural heritage is remarkable not only for surviving millennia, but for enabling modern civilization as we know it.  It is now universally used--everywhere--across all cultures.
 
 While the Hindu-Arabic system is universal, two conspicuous details vary by locale:  numerals and formatting.  [The numerals used with Latin scripts first appeared in Europe, tracking the rise of modernity](https://en.wikipedia.org/wiki/Arabic_numerals#Adoption_in_Europe) (incidentally, "[Latin numerals](https://en.wikipedia.org/wiki/Latin_numerals)" refers to something different).  Several traditional styles of numerals are still in use, often side-by-side with Western numerals.  It's worth emphasizing that _they are only superficially different_:  the styles are equivalent in usage and meaning and all are used with the Hindu-Arabic number system.
 
@@ -48,7 +48,7 @@ While the Hindu-Arabic system is universal, two conspicuous details vary by loca
 </figcaption>
 </figure>
 
-Number formatting differs by locale.  [Decimal markers](https://en.wikipedia.org/wiki/Decimal_separator) and group delimiters are variously full stops (periods), commas, apostrophes, or spaces.  And while in most locales the decimal marker and group delimiter are different characters, [in places that use Eastern Arabic numerals the separators are nearly indistinguishable](https://en.wikipedia.org/wiki/Decimal_separator#Other_numeral_systems) (**٬** and **٫** are technically separate characters from a comma in Unicode but identical in appearance to one).  The rules of grouping may differ too.  While most locales express large numbers by groups of 3 digits, the [Indian numbering system groups by 2 digits](https://en.wikipedia.org/wiki/Indian_numbering_system) (but only after the first 3).
+Number formatting differs by locale.  [Decimal markers](https://en.wikipedia.org/wiki/Decimal_separator) and group delimiters are variously full stops (periods), commas, apostrophes, or spaces.  In most locales the decimal marker and group delimiter are different characters.  [In places that use Eastern Arabic numerals the separators are nearly indistinguishable](https://en.wikipedia.org/wiki/Decimal_separator#Other_numeral_systems) (**٬** and **٫** are technically separate characters from a comma in Unicode but identical in appearance to one).  The rules of grouping may differ too.  While most locales express large numbers by groups of 3 digits, the [Indian numbering system groups by 2 digits](https://en.wikipedia.org/wiki/Indian_numbering_system) (but only after the first 3).
 
 <figure>
 
@@ -77,7 +77,7 @@ Number formatting differs by locale.  [Decimal markers](https://en.wikipedia.org
 
 [Times are written in 24 hours almost everywhere](https://en.wikipedia.org/wiki/24-hour_clock), with regional differences in spoken time.  In many places time is _spoken in 12 hours_, but written in 24 hours.  The United States [retains the use of 12-hour time, even in writing](https://en.wikipedia.org/wiki/12-hour_clock).  Only a handful of other countries still use 12-hour time in writing, including India.
 
-Most extant cultures write dates in order of significance, with regional differences in endianness.  [Essentially, all-numeric dates and times are unambiguous everywhere](https://en.wikipedia.org/wiki/Date_format_by_country) (except of course the United States).  [The U.S. uses an arbitrary all-numeric date ordering that so defies logic, it is mostly alone in the world](https://en.wikipedia.org/wiki/Date_and_time_notation_in_the_United_States).
+Most extant cultures write dates in order of significance, with regional differences in endianness.  [Essentially, all-numeric dates and times are unambiguous everywhere](https://en.wikipedia.org/wiki/Date_format_by_country) (except, of course, the United States).  [The U.S. uses an arbitrary all-numeric date ordering that so defies logic, it is mostly alone in the world](https://en.wikipedia.org/wiki/Date_and_time_notation_in_the_United_States).  Long-form dates are formatted differently by locale, even within the same language.
 
 <figure>
 
@@ -141,8 +141,8 @@ experience for users and can lead to incorrect data entry.  Fortunately,
 designers and engineers have the power to do better.
 
 The problem begins with the implicit assumptions Westerners often make about
-naming conventions: people have at most 3 names, only 2 of those names really
-matter, and order is conventional (a first name is always a given name and a
+naming conventions: people have at most 3 names, only 2 of which matter, and
+order is conventional (a first name is always a given name and a
 last name is always a surname).  Let's look a few examples that invalidate
 these assumptions.
 
@@ -151,9 +151,8 @@ these assumptions.
 We also make incorrect assumptions about names and gender, e.g. assuming your
 mother has a maiden name, which furthermore assumes she was married at all and
 that she changed her name upon marriage.  I will leave it to the reader to
-ponder why this is wrong.  We don't even need to consider the security
-implications of using this as a security question to see why we should stop
-making this assumption.
+ponder why this is wrong.  Not to mention that, because it is public
+information, it makes for a terrible security question.
 
 How do we accommodate all possible variation in personal names?  Easy.
 Provide just one name field:  "Full Name".  And don't validate the length
@@ -168,43 +167,114 @@ web forms](https://www.w3.org/International/questions/qa-personal-names).
 
 Improved user experience and greater inclusivity are excellent reasons to
 internationalize.  But broad team buy-in isn't necessary just to get started.
-Engineers are perfectly positioned to be prime-movers on i18n because it solves
+Engineers are perfectly positioned to be prime-movers because i18n solves
 a novel problem: separation of static content from code.  Even if only one
-language is supported, it's worth the extra effort for development teams.
+language is supported, it's worth the extra thought for development teams.
 
-The content in all of those form fields, action buttons, page titles, and
-navigations can and do fall out of sync over time.  Simple content changes are
-often an exciting game of search/replace. Arbitrary content change requests are
-a never-ending stream from customers, managers, and feature requests.  So we
-ought to make it as easy on ourselves as possible.
+Content consistency can be hard to maintain over time.
+The text in all of those form labels, action buttons, page titles, and
+navigations can and do fall out of sync.  Simple content changes are
+often an exciting game of search/replace, and just pray you caught every
+variation. We can count on arbitrary change-requests from customers and
+managers to exacerbate the issue.  So we ought to make it as easy on ourselves
+as possible.
 
-Proactive internationalization is a great place from which to advocate to a
-broader team or organization.  Once the groundwork is in-place, additional
+Proactive internationalization is a great platform from which to advocate to a
+broader team and organization.  Once the groundwork is in place, additional
 localization is straightforward.  Engineers can help themselves _and_ users by
-implementing i18n today.  Once the foundation is built, who's in charge of
+implementing i18n today.  Once built, though, who's in charge of
 translations?
 
 ## It's A Process
 
-The choice to internationalize is an engineering one.  The choice to localize--
-or rather, the choice to _use_ localizations--is a business decision.  That
-requires buy-in from stakeholders, sometimes including clients.  Getting buy-in
-may depend on the cost.  What does it take to get an app translated?
+The choice to internationalize is an engineering one.  The choice to
+localize--or rather, the choice to _use_ localizations--is a business decision.
+That requires buy-in from multiple stakeholders, sometimes including customers.
+Getting buy-in may depend on the cost.  What does it take to get an
+app translated?
 
 There are a number of approaches to content localization.  For large, complex
 projects with a lot of content, it may make sense to hire a firm.  Any number
 of companies offer this service.  For smaller well-defined projects, individual
 translators can be hired as-needed, with machine translation filling the gaps.
 
-Ask around your own team.  Chances are a number of developers you work with are
-proficient in at least one other language (native speakers are best, because of
-the importance of culture).  They may even be willing to volunteer to
-translate some strings.  Personally, nearly every team I've worked with included
-native speakers of other languages.  And native speakers of other languages are
-excellent allies to have in the pursuit of internationalization.
+You might be fortunate enough to have eager translators on your own team.
+Ask around.  Chances are a number of developers you work with are
+proficient in another language (native speakers are best, because of
+the importance of culture).  They may even be willing to
+translate some strings.  On smaller projects, looking inward for translations is
+a perfectly viable approach.  I am personally privileged to have worked with
+native speakers of other languages on every team of which I've been apart.
+Native speakers of other languages are excellent allies to have
+and the best customers of i18n.
 
-## Internationalization API
+## Technology
 
+The choice of language i18n tools depends on the project and preferences of the
+development team.  Since so many JavaScript tools exist, there's room to
+experiment and to learn.  In an effort to be non-prescriptive, we'll briefly
+cover only common patterns, at a high-level.
+
+Typical tools will separate all static content into language files.  Take the
+following example from [i18next](https://www.i18next.com):
+
+<figure>
+
+{{< highlight json >}}
+
+{
+  "titles": {
+    "auth": {
+      "login": "Login"
+    }
+  },
+  "subtitles": {
+    "auth": {
+      "login": "Login to access your account."
+    }
+  },
+  "actions": {
+    "auth": {
+      "login-now": "Login now"
+    }
+  }
+}
+
+{{< /highlight >}}
+
+<figcaption>
+<blockquote>
+<p><code>/en-us/translations.json</code></p>
+</blockquote>
+</figcaption>
+</figure>
+
+Instead of embedding content directly into code, it is named by referenced.
+This makes content updates across an entire application fast and consistent.
+Adding languages is as easy as copying the translations file and changing
+its values.
+
+<figure>
+
+{{< highlight handlebars >}}
+
+<h1>{{t "titles.auth.login"}}</h1>
+<p>{{t "subtitles.auth.login"}}</h1>
+
+<form>
+  <button type="submit">{{t "actions.auth.login-now"}}</button>
+</form>
+
+{{< /highlight >}}
+
+<figcaption>
+<blockquote>
+<p><code>template.html</code></p>
+</blockquote>
+</figcaption>
+</figure>
+
+## Intl API
 
 ECMAScript quietly introduced the [internationalization API](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl "Intl API") back in December 2012.  Today, [all modern browsers support ](https://caniuse.com/#feat=internationalization "Intl API browser support")`[Intl](https://caniuse.com/#feat=internationalization "Intl API browser support")`.  [Even Node.js supports it](https://nodejs.org/docs/latest-v11.x/api/intl.html "Node.js Internationalization").  The `Intl` API is fit for use in all new projects.
 
