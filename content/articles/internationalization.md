@@ -153,7 +153,7 @@ these assumptions.
 
 <figcaption>
 <blockquote>
-<p>Zhang Ying.  In this Chinese name, Zhang is the surname and the first name.  Ying is the given name and last name.  A woman with this name may prefer to be referred to as 张英女士, "Zhang Ying Nǚshì".  Among friends, she may go by 英.</p>
+<p>Zhang Ying.  In this Chinese name, Zhang is the surname and the first name.  Ying is the given name and last name.  A woman with this name may prefer to be referred to as 张英女士, "Zhang Ying Nǚshì".  Among friends, she may go by 英.  Or like many Chinese, she may choose to adopt a name or names that are easier for Westerners to use.</p>
 </blockquote>
 </figcaption>
 </figure>
@@ -165,7 +165,7 @@ these assumptions.
 
 <figcaption>
 <blockquote>
-<p>Brazilian names often include multiple surnames names.  In this Brazilian name, "Peçanha Lima da Silva" is the full last name, consisting of three separate surnames (possibly inherited from ancestors).  Unfortunately, this man's last name is probably butchered in every conceivable way outside of his culture.</p>
+<p>Brazilian names often include multiple surnames.  In this Brazilian name, "Peçanha Lima da Silva" is the full last name, consisting of three separate surnames (possibly inherited from ancestors).  Unfortunately, this man's last name is probably butchered in every conceivable way outside of his culture.</p>
 </blockquote>
 </figcaption>
 </figure>
@@ -196,8 +196,8 @@ language is supported, it's worth the extra thought for development teams.
 Content consistency can be hard to maintain over time.
 The text in all of those form labels, action buttons, page titles, and
 navigations can and do fall out of sync.  Simple content changes are
-often an exciting game of search/replace, and just pray you caught every
-variation. We can count on arbitrary change-requests from customers and
+often an exciting game of search/replace (just pray you caught every
+variation). We can count on arbitrary change-requests from customers and
 managers to exacerbate the issue.  So we ought to make it as easy on ourselves
 as possible.
 
@@ -207,15 +207,15 @@ localization is straightforward.  Engineers can help themselves _and_ users by
 implementing i18n today.  Once built, though, who's in charge of
 translations?
 
-## It's A Process
+## It's a Process
 
 The choice to internationalize is an engineering one.  The choice to
 localize--or rather, the choice to _use_ localizations--is a business decision.
 That requires buy-in from multiple stakeholders, sometimes including customers.
-Getting buy-in may depend on the cost.  What does it take to get an
+Getting buy-in may depend on the cost.  So what does it take to get an
 app translated?
 
-There are a number of approaches to content localization.  For large, complex
+There are a number of approaches to content localization.  For complex
 projects with a lot of content, it may make sense to hire a firm.  Any number
 of companies offer this service.  For smaller well-defined projects, individual
 translators can be hired as-needed, with machine translation filling the gaps.
@@ -227,8 +227,6 @@ the importance of culture).  They may even be willing to
 translate some strings.  On smaller projects, looking inward for translations is
 a perfectly viable approach.  I am personally privileged to have worked with
 native speakers of other languages on every team of which I've been apart.
-Native speakers of other languages are excellent allies to have
-and the best customers of i18n.
 
 ## Technology
 
@@ -237,7 +235,7 @@ development team.  Since so many JavaScript tools exist, there's room to
 experiment and to learn.  In an effort to be non-prescriptive, we'll briefly
 cover only common patterns, at a high-level.
 
-Typical tools will separate all static content into language files.  Take the
+Typical tools will separate static content into language files.  Take the
 following example from [i18next](https://www.i18next.com):
 
 <figure>
@@ -257,7 +255,7 @@ following example from [i18next](https://www.i18next.com):
   },
   "actions": {
     "auth": {
-      "login-now": "Login now"
+      "login-submit": "Login now"
     }
   }
 }
@@ -271,7 +269,7 @@ following example from [i18next](https://www.i18next.com):
 </figcaption>
 </figure>
 
-Instead of embedding content directly into code, it is named by referenced.
+Instead of embedding content directly into code, content is named by referenced.
 This makes content updates across an entire application fast and consistent.
 Adding languages is as easy as copying the translations file and changing
 its values.
@@ -284,7 +282,7 @@ its values.
 <p>{{t "subtitles.auth.login"}}</h1>
 
 <form>
-  <button type="submit">{{t "actions.auth.login-now"}}</button>
+  <button type="submit">{{t "actions.auth.login-submit"}}</button>
 </form>
 
 {{< /highlight >}}
@@ -298,31 +296,10 @@ its values.
 
 ## Intl API
 
-ECMAScript quietly introduced the [internationalization API](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl "Intl API") back in December 2012.  Today, [all modern browsers support ](https://caniuse.com/#feat=internationalization "Intl API browser support")`[Intl](https://caniuse.com/#feat=internationalization "Intl API browser support")`.  [Even Node.js supports it](https://nodejs.org/docs/latest-v11.x/api/intl.html "Node.js Internationalization").  The `Intl` API is fit for use in all new projects.
+Back in December 2012, ECMAScript quietly introduced the [internationalization API](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl "Intl API").  Today, [all modern browsers support the Intl API](https://caniuse.com/#feat=internationalization "Intl API browser support").  [Even Node.js supports it](https://nodejs.org/docs/latest-v11.x/api/intl.html "Node.js Internationalization").  The `Intl` API is fit for use in all new projects.
 
-[Try it out on intlnow.com &#8594;](http://www.intlnow.com/).
+The internationalization API provides cultural formatting services for numbers (including currencies), dates & times, and language-aware sorting.  It handles all of this _natively_.  Previously, such tasks required byte-heavy third-party libraries and their locale data files.  Though some features are not widely supported yet, such as relative times (e.g. "30s ago").  Watch for additional features to land in capable browsers soon.  [Check the docs for a complete API reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl "Intl API docs").
 
-The internationalization API provides key formatting services for numbers (including currencies), dates & times, and language-aware sorting.  It handles all of this _natively_.  Previously, such tasks required byte-heavy third-party libraries and their locale data files.  Though some features are not widely supported yet, such as relative times (e.g. "30s ago").  Watch for additional features to land in capable browsers soon.
+## Intlnow.com
 
-Here are a few examples.  [Check the docs for a complete API reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl "Intl API docs").
-
-{{< highlight js >}}
-const date = new Date(Date.UTC(2012, 0, 1, 0, 0, 0));
-console.log(new Intl.DateTimeFormat('en-US').format(date));
-// 12/31/2011
-// Note:  your results may vary, since the default target timezone is the current host's
-
-const number = 123456.789;
-console.log(new Intl.NumberFormat('en-US', { maximumSignificantDigits: 3 }).format(number));
-// 123,000
-console.log(new Intl.NumberFormat('de', { maximumSignificantDigits: 3 }).format(number));
-// 123.000
-console.log(new Intl.NumberFormat('en-IN', { maximumSignificantDigits: 3 }).format(number));
-// 1,23,000
-console.log(new Intl.NumberFormat('en', { style: 'currency', currency: 'JPY' }).format(number));
-// ¥123,457
-console.log(new Intl.NumberFormat('en', { style: 'currency', currency: 'EUR' }).format(number));
-// €123,456.79
-console.log(new Intl.NumberFormat('de-DE', { style: 'currency', currency: 'EUR' }).format(number));
-// 123.456,79 €
-{{< /highlight >}}
+To raise awareness about the Intl API, I created a simple tool.  [Visit **intlnow.com** to visually explore examples of the API and get code](http://www.intlnow.com/) that works in all modern browsers.  Start experimenting, have fun, and make the web more inclusive!
