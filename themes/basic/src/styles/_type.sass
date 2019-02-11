@@ -26,7 +26,8 @@ h1, h2, h3, h4, h5, h6
   font-family: $heading-font-family
   font-weight: $heading-font-weight
 
-h1
+h1,
+.h1
   +type-scale(6)
   +respond-to(smaller-screens)
     +type-scale(4)
@@ -118,6 +119,10 @@ kbd
   padding: 2px 6px
   border: 1px solid $base-font-color
   border-radius: 3px
+
+.text-lg
+  font-size: $base-font-size * 1.5
+  line-height: 1.35
 
 .lead
   +type-scale(4)

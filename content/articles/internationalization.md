@@ -29,16 +29,16 @@ While the Hindu-Arabic system is universal, two conspicuous details vary by loca
 
 <dl>
 <dt>Western</dt>
-<dd>1234567890</dd>
+<dd class="text-lg">1234567890</dd>
 
 <dt>Eastern Arabic</dt>
-<dd>١٢٣٤٥٦٧٨٩٠</dd>
+<dd class="text-lg">١٢٣٤٥٦٧٨٩٠</dd>
 
 <dt>Devanagari</dt>
-<dd>१२३४५६७८९०</dd>
+<dd class="text-lg">१२३४५६७८९०</dd>
 
 <dt>Thai</dt>
-<dd>๑๒๓๔๕๖๗๘๙๐<dd>
+<dd class="text-lg">๑๒๓๔๕๖๗๘๙๐<dd>
 </dl>
 
 <figcaption>
@@ -54,16 +54,16 @@ Number formatting differs by locale.  [Decimal markers](https://en.wikipedia.org
 
 <dl>
 <dt>Western</dt>
-<dd>1,500,000.48</dd>
+<dd class="text-lg">1,500,000.48</dd>
 
 <dt>Eastern Arabic</dt>
-<dd>١٬٥٠٠٬٠٠٠٫٤٨</dd>
+<dd class="text-lg">١٬٥٠٠٬٠٠٠٫٤٨</dd>
 
 <dt>Indian</dt>
-<dd>१५,००,०००.४८</dd>
+<dd class="text-lg">१५,००,०००.४८</dd>
 
 <dt>Thai</dt>
-<dd>๑,๕๐๐,๐๐๐.๔๘<dd>
+<dd class="text-lg">๑,๕๐๐,๐๐๐.๔๘<dd>
 </dl>
 
 <figcaption>
@@ -146,17 +146,39 @@ order is conventional (a first name is always a given name and a
 last name is always a surname).  Let's look a few examples that invalidate
 these assumptions.
 
-...examples of names around the world...
+<figure>
+<div class="figure-content">
+  <span class="h1">张英</span>
+</div>
+
+<figcaption>
+<blockquote>
+<p>Zhang Ying.  In this Chinese name, Zhang is the surname and the first name.  Ying is the given name and last name.  A woman with this name may prefer to be referred to as 张英女士, "Zhang Ying Nǚshì".  Among friends, she may go by 英.</p>
+</blockquote>
+</figcaption>
+</figure>
+
+<figure>
+<div class="figure-content">
+  <span class="h1">João Francisco Peçanha Lima da Silva</span>
+</div>
+
+<figcaption>
+<blockquote>
+<p>Brazilian names often include multiple surnames names.  In this Brazilian name, "Peçanha Lima da Silva" is the full last name, consisting of three separate surnames (possibly inherited from ancestors).  Unfortunately, this man's last name is probably butchered in every conceivable way outside of his culture.</p>
+</blockquote>
+</figcaption>
+</figure>
 
 We also make incorrect assumptions about names and gender, e.g. assuming your
 mother has a maiden name, which furthermore assumes she was married at all and
 that she changed her name upon marriage.  I will leave it to the reader to
-ponder why this is wrong.  Not to mention that, because it is public
-information, it makes for a terrible security question.
+ponder why this is wrong.  Not to mention that because it is public
+information, it is a terrible security question.
 
 How do we accommodate all possible variation in personal names?  Easy.
 Provide just one name field:  "Full Name".  And don't validate the length
-(only that it is filled), because one- or two-character names are possible.  An
+(only that it is filled), because one-character names are possible.  An
 additional "What should we call you" field is also recommended, since full names
 aren't always appropriate or practical.  Let your users tell you about their
 name(s) with as few built-in assumptions as possible.
@@ -278,7 +300,7 @@ its values.
 
 ECMAScript quietly introduced the [internationalization API](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl "Intl API") back in December 2012.  Today, [all modern browsers support ](https://caniuse.com/#feat=internationalization "Intl API browser support")`[Intl](https://caniuse.com/#feat=internationalization "Intl API browser support")`.  [Even Node.js supports it](https://nodejs.org/docs/latest-v11.x/api/intl.html "Node.js Internationalization").  The `Intl` API is fit for use in all new projects.
 
-[Try it out right now on intlnow.com](http://www.intlnow.com/).
+[Try it out on intlnow.com &#8594;](http://www.intlnow.com/).
 
 The internationalization API provides key formatting services for numbers (including currencies), dates & times, and language-aware sorting.  It handles all of this _natively_.  Previously, such tasks required byte-heavy third-party libraries and their locale data files.  Though some features are not widely supported yet, such as relative times (e.g. "30s ago").  Watch for additional features to land in capable browsers soon.
 
