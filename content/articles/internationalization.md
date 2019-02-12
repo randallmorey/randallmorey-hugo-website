@@ -144,7 +144,7 @@ designers and engineers have the power to do better.
 The problem begins with the implicit assumptions Westerners often make about
 naming conventions: people have at most 3 names, only 2 of which matter, and
 order is conventional (a first name is always a given name and a
-last name is always a surname).  Let's look a few examples that invalidate
+last name is always a surname).  Let's look at some examples that invalidate
 these assumptions.
 
 <figure>
