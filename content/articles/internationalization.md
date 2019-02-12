@@ -167,7 +167,7 @@ these assumptions.
 <figcaption>
 <blockquote>
 <p>
-Brazilian names often include multiple surnames.  In this case, &ldquo;Peçanha Dias da Silva&rdquo; is the full last name, consisting of three separate surnames (probably inherited from ancestors).  Unfortunately, this man's last name will be butchered in every conceivable way outside of his culture. &#x2053;  This Brazilian has two given names, &ldquo;João&rdquo; and &ldquo;Francisco&rdquo;.  Brazilians often use given name(s), even among strangers.  <b>This man could go by either of his given names or both</b>.  And while Portuguese has formal titles, they are not commonly used with names.  Formally, this man is simply addressed by his full name.
+Brazilian names often include multiple surnames.  In this case, &ldquo;Peçanha Dias da Silva&rdquo; is the full last name, consisting of three separate surnames (in this case, one from each parent and one an inherited ancestral name).  Unfortunately, this man's last name will be butchered in every conceivable way outside of his culture. &#x2053;  This Brazilian has two given names, &ldquo;João&rdquo; and &ldquo;Francisco&rdquo;.  Brazilians often use given name(s), even among strangers.  <b>This man could go by either of his given names or both</b>.  And while Portuguese has formal titles, they are not commonly used with names.  Formally, this man is simply addressed by his full name.
 </p>
 </blockquote>
 </figcaption>
