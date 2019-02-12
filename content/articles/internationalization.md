@@ -78,7 +78,7 @@ Number formatting differs by locale.  [Decimal markers](https://en.wikipedia.org
 
 [Times are written in 24 hours almost everywhere](https://en.wikipedia.org/wiki/24-hour_clock), with regional differences in spoken time.  In many places time is _spoken in 12 hours_, but written in 24 hours.  The United States [retains the use of 12-hour time, even in writing](https://en.wikipedia.org/wiki/12-hour_clock).  Only a handful of other countries still use 12-hour time in writing, including India.
 
-Most extant cultures write dates in order of significance, with regional differences in endianness.  [Essentially, all-numeric dates and times are unambiguous everywhere](https://en.wikipedia.org/wiki/Date_format_by_country) (except, of course, the United States).  [The U.S. uses an arbitrary all-numeric date ordering that so defies logic, it is mostly alone in the world](https://en.wikipedia.org/wiki/Date_and_time_notation_in_the_United_States).  Long-form dates are formatted differently by locale, even within the same language.
+Most extant cultures write dates in order of significance, with regional differences in endianness.  [Essentially, all-numeric dates and times are unambiguous everywhere](https://en.wikipedia.org/wiki/Date_format_by_country) (except, of course, the United States).  [The U.S. uses an arbitrary all-numeric date ordering that so defies logic, it is mostly alone in the world](https://en.wikipedia.org/wiki/Date_and_time_notation_in_the_United_States).  For example, in most of the world **11-01-2019** refers to 11 January 2019.  In the U.S. it refers to 1 November 2019.  Long-form dates, however, can vary greatly by locale.
 
 <figure>
 
