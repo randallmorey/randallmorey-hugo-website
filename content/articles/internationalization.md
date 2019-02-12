@@ -1,12 +1,13 @@
 ---
 cover_art: true
 cover_art_bg_color: red
-date: 2019-01-25 05:00:00 +0000
-lead: TL;DR / inclusivity introduction
+date: 2019-02-10 05:00:00 +0000
+lead: >
+  Internationalization/localization of web apps is a win for all stakeholders:  users get a greater chance to access the web in their preferred language and culture, business can reach more people, and even developers benefit with DRY code.  Before beginning such an effort, it's helpful to understand why i18n matters and exactly what it affects.  Armed with knowledge and fewer assumptions, engineers can be champions of i18n and make the web a more inclusive place.
 reverse_header: true
 title: Internationalization
 cover_art_svg: ''
-draft: true
+draft: false
 
 ---
 [English is the world's _lingua franca_](https://en.wikipedia.org/wiki/English_as_a_lingua_franca) at more than a billion users.  [In the United States it is the most widely-spoken language](https://en.wikipedia.org/wiki/Languages_of_the_United_States), followed by Spanish and Chinese.  [But by global native-speaker population, English takes only third place](https://en.wikipedia.org/wiki/List_of_languages_by_number_of_native_speakers "List of languages by native speakers").  Chinese is most widely spoken overall, followed by Spanish, English, Hindi, Arabic, and Portuguese.  
@@ -21,7 +22,7 @@ These data hint at another important consideration of i18n.  Culture affects the
 
 ### Numbers
 
-[A fully modern number system first appeared definitively at a temple in Gwalior, India around 876 AD](http://www.ams.org/publicoutreach/feature-column/fcarc-india-zero).  It is the same system we use today:  a positional base-10 system with a built-in concept of zero (0).  Individually, the innovations were nothing new, but their combination proved explosive.  Properly known as the [Hindu-Arabic system](https://www.britannica.com/science/numeral#ref797079), this indelible piece of cultural heritage is remarkable not only for surviving millennia, but for enabling modern civilization as we know it.  It is now universally used--everywhere--across all cultures.
+[A fully modern number system first appeared definitively at a temple in Gwalior, India around 876 AD](http://www.ams.org/publicoutreach/feature-column/fcarc-india-zero).  It is the same system we use today:  a positional base-10 system with a built-in concept of zero (0).  Individually, the innovations were nothing new, but their combination proved explosive.  Properly known as the [Hindu-Arabic system](https://www.britannica.com/science/numeral#ref797079), this indelible piece of cultural heritage is remarkable not only for surviving millennia, but for enabling modern civilization as we know it.  It is now universally used---everywhere---across all cultures.
 
 While the Hindu-Arabic system is universal, two conspicuous details vary by locale:  numerals and formatting.  [The numerals used with Latin scripts first appeared in Europe, tracking the rise of modernity](https://en.wikipedia.org/wiki/Arabic_numerals#Adoption_in_Europe) (incidentally, "[Latin numerals](https://en.wikipedia.org/wiki/Latin_numerals)" refers to something different).  Several traditional styles of numerals are still in use, often side-by-side with Western numerals.  It's worth emphasizing that _they are only superficially different_:  the styles are equivalent in usage and meaning and all are used with the Hindu-Arabic number system.
 
@@ -153,42 +154,40 @@ these assumptions.
 
 <figcaption>
 <blockquote>
-<p>Zhang Ying.  In this Chinese name, Zhang is the surname and the first name.  Ying is the given name and last name.  A woman with this name may prefer to be referred to as 张英女士, "Zhang Ying Nǚshì".  Among friends, she may go by 英.  Or like many Chinese, she may choose to adopt a name or names that are easier for Westerners to use.</p>
+<p>Zhang Ying.  In this Chinese name, Zhang is the surname and the first name.  Ying is the given name and last name.  A woman with this name may prefer to be referred to as 张英女士, &ldquo;Zhang Ying Nǚshì&rdquo;.  Among friends, she may go by 英.  Or like many Chinese, she may choose to adopt a name or names that are easier for Westerners to use.</p>
 </blockquote>
 </figcaption>
 </figure>
 
 <figure>
 <div class="figure-content">
-  <span class="h1">João Francisco Peçanha Lima da Silva</span>
+  <span class="h1">João Francisco Peçanha Dias da Silva</span>
 </div>
 
 <figcaption>
 <blockquote>
-<p>Brazilian names often include multiple surnames.  In this Brazilian name, "Peçanha Lima da Silva" is the full last name, consisting of three separate surnames (possibly inherited from ancestors).  Unfortunately, this man's last name is probably butchered in every conceivable way outside of his culture.</p>
+<p>
+Brazilian names often include multiple surnames.  In this case, &ldquo;Peçanha Dias da Silva&rdquo; is the full last name, consisting of three separate surnames (probably inherited from ancestors).  Unfortunately, this man's last name will be butchered in every conceivable way outside of his culture. &#x2053;  This Brazilian has two given names, &ldquo;João&rdquo; and &ldquo;Francisco&rdquo;.  Brazilians often use given name(s), even among strangers.  <b>This man could go by either of his given names or both</b>.  And while Portuguese has formal titles, they are not commonly used with names.  Formally, this man is simply addressed by his full name.
+</p>
 </blockquote>
 </figcaption>
 </figure>
 
-We also make incorrect assumptions about names and gender, e.g. assuming your
-mother has a maiden name, which furthermore assumes she was married at all and
-that she changed her name upon marriage.  I will leave it to the reader to
-ponder why this is wrong.  Not to mention that because it is public
-information, it is a terrible security question.
+### Make No Assumptions
 
 How do we accommodate all possible variation in personal names?  Easy.
-Provide just one name field:  "Full Name".  And don't validate the length
-(only that it is filled), because one-character names are possible.  An
+Provide just one name field:  "Full Name".  And don't validate length,
+only that it is filled, because one-character names are possible.  An
 additional "What should we call you" field is also recommended, since full names
 aren't always appropriate or practical.  Let your users tell you about their
-name(s) with as few built-in assumptions as possible.
+name(s) with as few assumptions as possible.
 [The W3C provides more in-depth information and recommendations for designing
 web forms](https://www.w3.org/International/questions/qa-personal-names).
 
 ## Start With Engineering
 
 Improved user experience and greater inclusivity are excellent reasons to
-internationalize.  But broad team buy-in isn't necessary just to get started.
+internationalize web apps.  But broad team buy-in isn't necessary just to get started.
 Engineers are perfectly positioned to be prime-movers because i18n solves
 a novel problem: separation of static content from code.  Even if only one
 language is supported, it's worth the extra thought for development teams.
@@ -196,7 +195,7 @@ language is supported, it's worth the extra thought for development teams.
 Content consistency can be hard to maintain over time.
 The text in all of those form labels, action buttons, page titles, and
 navigations can and do fall out of sync.  Simple content changes are
-often an exciting game of search/replace (just pray you caught every
+often an exciting game of search/replace (just pray that you caught every
 variation). We can count on arbitrary change-requests from customers and
 managers to exacerbate the issue.  So we ought to make it as easy on ourselves
 as possible.
@@ -204,13 +203,12 @@ as possible.
 Proactive internationalization is a great platform from which to advocate to a
 broader team and organization.  Once the groundwork is in place, additional
 localization is straightforward.  Engineers can help themselves _and_ users by
-implementing i18n today.  Once built, though, who's in charge of
-translations?
+implementing i18n today.  But who's in charge of translations?
 
 ## It's a Process
 
 The choice to internationalize is an engineering one.  The choice to
-localize--or rather, the choice to _use_ localizations--is a business decision.
+localize---or rather, the choice to _use_ localizations---is a business decision.
 That requires buy-in from multiple stakeholders, sometimes including customers.
 Getting buy-in may depend on the cost.  So what does it take to get an
 app translated?
@@ -230,7 +228,7 @@ native speakers of other languages on every team of which I've been apart.
 
 ## Technology
 
-The choice of language i18n tools depends on the project and preferences of the
+The choice of i18n tools depends on the project and preferences of the
 development team.  Since so many JavaScript tools exist, there's room to
 experiment and to learn.  In an effort to be non-prescriptive, we'll briefly
 cover only common patterns, at a high-level.
@@ -296,7 +294,7 @@ its values.
 
 ## Intl API
 
-Back in December 2012, ECMAScript quietly introduced the [internationalization API](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl "Intl API").  Today, [all modern browsers support the Intl API](https://caniuse.com/#feat=internationalization "Intl API browser support").  [Even Node.js supports it](https://nodejs.org/docs/latest-v11.x/api/intl.html "Node.js Internationalization").  The `Intl` API is fit for use in all new projects.
+Back in December 2012, ECMAScript quietly introduced the [internationalization API](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl "Intl API").  Today, [all modern browsers support Intl](https://caniuse.com/#feat=internationalization "Intl API browser support").  [Even Node.js supports it](https://nodejs.org/docs/latest-v11.x/api/intl.html "Node.js Internationalization").  The `Intl` API is fit for use in all new projects.
 
 The internationalization API provides cultural formatting services for numbers (including currencies), dates & times, and language-aware sorting.  It handles all of this _natively_.  Previously, such tasks required byte-heavy third-party libraries and their locale data files.  Though some features are not widely supported yet, such as relative times (e.g. "30s ago").  Watch for additional features to land in capable browsers soon.  [Check the docs for a complete API reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl "Intl API docs").
 
