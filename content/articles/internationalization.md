@@ -167,7 +167,7 @@ these assumptions.
 <figcaption>
 <blockquote>
 <p>
-Brazilian names often include multiple surnames.  In this case, &ldquo;Peçanha Dias da Silva&rdquo; consists of three separate surnames (likely one from each parent and one an inherited ancestral name).  There is no concept of "last name" in Portuguese.  Unfortunately, this man's last name will be butchered in every conceivable way outside of his culture. &#x2053;  This Brazilian has two given names, &ldquo;João&rdquo; and &ldquo;Francisco&rdquo;.  Brazilians often use given names, even among strangers.  <b>This man could go by either of his given names, or both</b>.  And while Portuguese has formal titles, they are not commonly used with names.  Formally, this man is simply addressed by his full name.
+Brazilian names often include multiple surnames.  In this case, &ldquo;Peçanha Dias da Silva&rdquo; consists of three separate surnames (likely one from each parent and one an inherited ancestral name).  There is no concept of "last name" in Portuguese.  &#x2053;  This Brazilian has two given names, &ldquo;João&rdquo; and &ldquo;Francisco&rdquo;.  Brazilians often use given names, even among strangers.  <b>This man could go by either of his given names, or both</b>.  And while Portuguese has formal titles, they are not commonly used with names.  Formally, this man is simply addressed by his full&nbsp;name.
 </p>
 </blockquote>
 </figcaption>
@@ -228,13 +228,12 @@ native speakers of other languages on every team of which I've been apart.
 
 ## Technology
 
-The choice of i18n tools depends on the project and preferences of the
+The choice of frontend i18n tools depends on the project and preferences of the
 development team.  Since so many JavaScript tools exist, there's room to
 experiment and to learn.  In an effort to be non-prescriptive, we'll briefly
 cover only common patterns, at a high-level.
 
-Typical tools will separate static content into language files.  Take the
-following example from [i18next](https://www.i18next.com):
+Typical tools will separate static content into language files, e.g.:
 
 <figure>
 
@@ -268,7 +267,7 @@ following example from [i18next](https://www.i18next.com):
 </figure>
 
 Instead of embedding content directly into code, content is named by referenced.
-This makes content updates across an entire application fast and consistent.
+This makes content updates across the entire application fast and consistent.
 Adding languages is as easy as copying the translations file and changing
 its values.
 
