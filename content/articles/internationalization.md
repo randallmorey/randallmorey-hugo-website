@@ -154,7 +154,7 @@ these assumptions.
 
 <figcaption>
 <blockquote>
-<p>Zhang Ying.  In this Chinese name, Zhang is the surname and the first name.  Ying is the given name and last name.  A woman with this name may prefer to be referred to as 张英女士, &ldquo;Zhang Ying Nǚshì&rdquo;.  Among friends, she may go by 英.  Or like many Chinese, she may choose to adopt a name or names that are easier for Westerners to use.</p>
+<p>Zhang Ying.  In this Chinese name, Zhang is the surname and comes first.  Ying is the given name and comes last.  A woman with this name may prefer to be referred to as 张英女士, &ldquo;Zhang Ying Nǚshì&rdquo;.  Among friends, she may go by 英.  Or like many Chinese, she may choose to adopt a name or names that are easier for Westerners to use.</p>
 </blockquote>
 </figcaption>
 </figure>
@@ -167,7 +167,7 @@ these assumptions.
 <figcaption>
 <blockquote>
 <p>
-Brazilian names often include multiple surnames.  In this case, &ldquo;Peçanha Dias da Silva&rdquo; is the full last name, consisting of three separate surnames (in this case, one from each parent and one an inherited ancestral name).  Unfortunately, this man's last name will be butchered in every conceivable way outside of his culture. &#x2053;  This Brazilian has two given names, &ldquo;João&rdquo; and &ldquo;Francisco&rdquo;.  Brazilians often use given name(s), even among strangers.  <b>This man could go by either of his given names or both</b>.  And while Portuguese has formal titles, they are not commonly used with names.  Formally, this man is simply addressed by his full name.
+Brazilian names often include multiple surnames.  In this case, &ldquo;Peçanha Dias da Silva&rdquo; consists of three separate surnames (likely one from each parent and one an inherited ancestral name).  There is no concept of "last name" in Portuguese.  Unfortunately, this man's last name will be butchered in every conceivable way outside of his culture. &#x2053;  This Brazilian has two given names, &ldquo;João&rdquo; and &ldquo;Francisco&rdquo;.  Brazilians often use given name(s), even among strangers.  <b>This man could go by either of his given names or both</b>.  And while Portuguese has formal titles, they are not commonly used with names.  Formally, this man is simply addressed by his full name.
 </p>
 </blockquote>
 </figcaption>
