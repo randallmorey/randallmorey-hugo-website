@@ -154,7 +154,7 @@ these assumptions.
 
 <figcaption>
 <blockquote>
-<p>Zhang Ying.  In this Chinese name, Zhang is the surname and comes first.  Ying is the given name and comes last.  A woman with this name may prefer to be referred to as 张英女士, &ldquo;Zhang Ying Nǚshì&rdquo;.  Among friends, she may go by 英.  Or like many Chinese, she may choose to adopt a name or names that are easier for Westerners to use.</p>
+<p>Zhang Ying.  In this Chinese name, Zhang is the surname and comes first.  Ying is the given name and comes last.  A woman with this name may prefer to be referred to as 张英女士, &ldquo;Zhang Ying Nǚshì&rdquo;.  Among friends, she may go by 英.  Or [like many Chinese, she may choose to adopt a name or names that are easier for Westerners to use](https://theculturetrip.com/asia/china/articles/chinese-people-western-names/).</p>
 </blockquote>
 </figcaption>
 </figure>
