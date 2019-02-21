@@ -212,7 +212,8 @@ localize is often a business decision.  That requires buy-in from multiple
 stakeholders, sometimes including customers.  So what does it take to get an
 app localized?
 
-The considerations on the business end are numerous.  Is the product used
+[The considerations on the business end are numerous](https://www.youtube.com/watch?v=GeO1-lU6Lp4).
+Is the product used
 in a given locale?  Is the product even appropriate to a target culture?
 Does the organization need to support customers in
 multiple languages?  How does the product fit with the organization's larger
