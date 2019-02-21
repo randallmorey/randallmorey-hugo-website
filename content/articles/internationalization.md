@@ -3,7 +3,7 @@ cover_art: true
 cover_art_bg_color: red
 date: 2019-02-10 05:00:00 +0000
 lead: >
-  Internationalization/localization of web apps is a win for all stakeholders.  Users get more languages, businesses can reach more people, and even developers benefit with DRY code.  Before beginning such an effort, we must understand why i18n matters and what it impacts.  Armed with knowledge and fewer assumptions, web practitioners can be champions of i18n and make the web a more inclusive place.
+  Internationalization / localization of web apps is a win for all stakeholders.  Users get more languages, businesses can reach more people, and even developers benefit with DRY code.  Before beginning such an effort, we must understand why i18n matters and what it entails.  Armed with knowledge and fewer assumptions, web practitioners can be champions of i18n and make the web a more inclusive place.
 reverse_header: true
 title: Internationalization
 cover_art_svg: ''
