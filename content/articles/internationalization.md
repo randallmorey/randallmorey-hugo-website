@@ -205,26 +205,34 @@ broader team and organization.  Once the groundwork is in place, additional
 localization is straightforward.  Engineers can help themselves _and_ users by
 implementing i18n today.  But who's in charge of translations?
 
-## It's a Process
+## It's a Team Effort
 
 The choice to internationalize is an engineering one.  The choice to
-localize---or rather, the choice to _use_ localizations---is a business decision.
-That requires buy-in from multiple stakeholders, sometimes including customers.
-Getting buy-in may depend on the cost.  So what does it take to get an
-app translated?
+localize is often a business decision.  That requires buy-in from multiple
+stakeholders, sometimes including customers.  So what does it take to get an
+app localized?
 
-There are a number of approaches to content localization.  For complex
-projects with a lot of content, it may make sense to hire a firm.  Any number
-of companies offer this service.  For smaller well-defined projects, individual
-translators can be hired as-needed, with machine translation filling the gaps.
+The considerations on the business end are numerous.  Is the product used
+in a given locale?  Is the product even appropriate to a target culture?
+Does the organization need to support customers in
+multiple languages?  How does the product fit with the organization's larger
+internationalization or global content strategy?  Does the company even have
+a global strategy?  Engineering alone cannot answer these questions.
+Localization is, at its best, a non-engineering effort involving product
+managers, localization managers, translators, and cultural experts.
+
+Even if your team doesn't have access to localization resources, you can
+still get started at a smaller scale.  Merely translating an experience is a
+step in the right direction even if there isn't a team of strategic thinkers
+behind it.
 
 You might be fortunate enough to have eager translators on your own team.
-Ask around.  Chances are a number of developers you work with are
+Ask around.  Chances are a number of your coworkers are
 proficient in another language (native speakers are best, because of
 the importance of culture).  They may even be willing to
 translate some strings.  On smaller projects, looking inward for translations is
-a perfectly viable approach.  I am personally privileged to have worked with
-native speakers of other languages on every team of which I've been apart.
+a perfectly viable approach.  Machine translation can fill in the gaps,
+if necessary.
 
 ## Technology
 
