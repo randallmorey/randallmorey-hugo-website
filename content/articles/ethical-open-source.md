@@ -13,3 +13,8 @@ lead: >
   this principle is widely understood, internalized, and approached as
   best practice.
 ---
+
+https://www.youtube.com/watch?v=PGqr8fc6nEs
+https://www.aclu.org/blog/privacy-technology/pitfalls-artificial-intelligence-decisionmaking-highlighted-idaho-aclu-case
+https://www.aclu.org/blog/privacy-technology/consumer-privacy/internet-kafkaesque-things?redirect=blog/free-future/internet-kafkaesque-things
+https://www.nytimes.com/2019/04/10/opinion/insurance-ai.html?action=click&module=Opinion&pgtype=Homepage
